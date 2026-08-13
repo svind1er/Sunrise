@@ -1,0 +1,3541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="resources">
+      <UniqueIdentifier>{86C36AA9-FE73-53BB-B1A1-D186BB2CF666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{B4F311EC-C535-5A00-B41C-11196FCDDF14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client">
+      <UniqueIdentifier>{8D6BFF9A-C61B-527C-87D4-4777F1833C63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\content">
+      <UniqueIdentifier>{0D847364-BF1C-5584-86F8-5333CB4B6108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\content\activity">
+      <UniqueIdentifier>{A646A257-3C23-5549-8264-C1B3AFD86434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\content\bootstrap">
+      <UniqueIdentifier>{6B8135F9-14BD-5F19-9EAE-FAE72824C767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\content\diagnostics">
+      <UniqueIdentifier>{C5B24DFD-3F60-5176-9D1A-FF8EC9F5B46A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\content\handles">
+      <UniqueIdentifier>{A7FD5831-24DB-51EF-87C3-2E342CFF0437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\content\hash_names">
+      <UniqueIdentifier>{5A23EE30-0025-51C6-9587-B8AAAE9F825E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\content\investment">
+      <UniqueIdentifier>{97C267B7-6E03-53C2-BFEB-752A423D34A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\content\investment\worker">
+      <UniqueIdentifier>{48304E66-1F01-5081-96ED-68F01CE93E8F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\content\items">
+      <UniqueIdentifier>{3FFDEAFF-F260-5104-BA56-D20B17B29C87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\content\items\details">
+      <UniqueIdentifier>{93445971-1CEB-58CE-87E1-382AA30BA30A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\content\items\packages">
+      <UniqueIdentifier>{94E6D9C2-15C2-511F-8BD0-23DB269493A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\content\scenarios">
+      <UniqueIdentifier>{71B71231-D6F1-597F-9BAD-A04B34C9895D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\content\spawn_sets">
+      <UniqueIdentifier>{8C40C141-A5FC-5E18-A6A4-D757B9E58012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\diagnostics">
+      <UniqueIdentifier>{ECFD7649-46A2-5C24-B6A2-6EB14C96813B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\executable">
+      <UniqueIdentifier>{FF5BF00E-987E-5075-A2FC-F8AB253C046C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooking">
+      <UniqueIdentifier>{E2ADC00C-67BB-5E16-8423-64F3FB5DF9E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooking\detour">
+      <UniqueIdentifier>{0EB404E9-7E69-5B35-B9F3-FFF99575CA02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooking\detour\transaction">
+      <UniqueIdentifier>{52CFD60C-075A-5CEA-8E6C-A414B77E2022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks">
+      <UniqueIdentifier>{62578B4D-DB9A-586B-9728-97E35685537B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\assert_handler">
+      <UniqueIdentifier>{84F8EC05-771C-578A-863A-7F7F32550A6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\banner">
+      <UniqueIdentifier>{5685F449-CE24-5ED3-A115-E75501D2091D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\bitmap">
+      <UniqueIdentifier>{4E5FBD3F-95D4-5944-A5C0-133BCA6D538E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\bootflow">
+      <UniqueIdentifier>{D5DE9F24-506D-50F8-A87E-66F52545D581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\bootflow\spawn">
+      <UniqueIdentifier>{B6DB08BA-38FB-5636-8021-8B96BA81A0A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\config_getter">
+      <UniqueIdentifier>{6FA08484-7E53-55CF-B384-9B656A187F8A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\cursor">
+      <UniqueIdentifier>{9C819EAE-819A-57DA-9BD4-D724133D3D7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\egress">
+      <UniqueIdentifier>{C119098A-49A0-5879-981C-50D54618E48F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\egress\dns">
+      <UniqueIdentifier>{37D2D3E4-3985-504A-9BA9-1049CD1811E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\egress\extensions">
+      <UniqueIdentifier>{78F23EB4-F70E-5A46-95DB-7F080D808473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\egress\lifecycle">
+      <UniqueIdentifier>{6957A42A-F160-5445-B164-D2C236941E44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\egress\platform">
+      <UniqueIdentifier>{3ACBDD5E-5DA1-58B2-B967-772686E49A2F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\egress\policy">
+      <UniqueIdentifier>{C1CE2687-014C-5696-B3AB-353A9CEC6DF3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\egress\resolver">
+      <UniqueIdentifier>{6D2510BA-3362-5E80-918F-F1443256DA00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\egress\winsock">
+      <UniqueIdentifier>{0B3EF1D8-619A-53D5-B6E3-844692F3FB69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\egress\winsock\connection">
+      <UniqueIdentifier>{53BB5DB5-D8E8-56FF-8A3C-33D7EE2043F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\egress\winsock\control">
+      <UniqueIdentifier>{1CD9A170-5071-5E89-9F72-B7C328D61B2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\egress\winsock\discovery">
+      <UniqueIdentifier>{04446F8D-0EB4-5BCD-8BB5-853A125E52D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\egress\winsock\reception">
+      <UniqueIdentifier>{ED338DC9-FBDC-57D8-916A-956A2AA000EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\egress\winsock\transmission">
+      <UniqueIdentifier>{5FBA502A-97A1-5BEF-A710-30CAB42064F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\external_server">
+      <UniqueIdentifier>{86F7827F-6A52-5807-9130-3373E093F79C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\graphics">
+      <UniqueIdentifier>{454B91D2-D815-514D-AA17-6C1D8D028C89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\graphics\discovery">
+      <UniqueIdentifier>{E7713FA3-9029-556A-8125-9142A3664A4F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\graphics\input">
+      <UniqueIdentifier>{B0073607-8FDA-56E3-8A35-3517CFC90982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\graphics\renderer">
+      <UniqueIdentifier>{75B91E89-6CDE-51E4-B085-E19BA396F1FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\graphics\renderer\selection">
+      <UniqueIdentifier>{896C31C7-DE3E-5CCE-8603-F24C20B86187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\network">
+      <UniqueIdentifier>{41161BD6-8C8B-564C-AD90-863B4ECD1768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\network\bubble_authority">
+      <UniqueIdentifier>{14609E38-0F45-532F-B866-B0A6112967B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\network\bubble_authority\scope">
+      <UniqueIdentifier>{819102DF-1DAE-53E3-9354-0A498AAEDD83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\network\content_config">
+      <UniqueIdentifier>{4241CD29-3849-503C-855F-0151F07E4DEB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\network\content_config\coordinator">
+      <UniqueIdentifier>{EED5E7D9-F498-5874-953E-D7E4FE318897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\network\content_config\gate">
+      <UniqueIdentifier>{43F9DF56-0917-5B0E-A355-65E7D0ED8636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\network\content_config\lifecycle">
+      <UniqueIdentifier>{BDB37886-4330-5162-89EE-9F5BEA93E8E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\network\content_config\request">
+      <UniqueIdentifier>{CCF1DE52-561C-5EBA-B844-0F75CC8C1D0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\network\content_config\tick">
+      <UniqueIdentifier>{F13A1DA5-BC38-543E-AAE0-026B228781DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\network\coordinator">
+      <UniqueIdentifier>{E7B9AF34-CB6A-5498-8FF6-DAAA700C4B0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\network\http">
+      <UniqueIdentifier>{7D159F77-B416-53F4-8E15-F2AA326528CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\network\investment">
+      <UniqueIdentifier>{311A1F43-0D9F-5C51-87A4-E54E67571ECB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\network\lifecycle">
+      <UniqueIdentifier>{63AE3FA0-9060-5312-9F33-950D955A1FD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\network\signon">
+      <UniqueIdentifier>{EC03D907-43C8-548D-8E8A-96FD9D8394F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\polled_input">
+      <UniqueIdentifier>{EED3D6AA-02B2-5136-97C1-7052464FE1A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\queuez">
+      <UniqueIdentifier>{962701E4-9D90-5CE3-9B0D-9BDB6E6BB2C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\queuez\family0">
+      <UniqueIdentifier>{62F76AF3-47FD-5117-9D56-1594A8D8EF28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\retail_log">
+      <UniqueIdentifier>{E449AB86-73C7-586D-A394-5A147BDC09B5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\hooks\teleport">
+      <UniqueIdentifier>{8D559282-500A-56E0-B84A-A2BD6481BE3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\memory">
+      <UniqueIdentifier>{87F418FD-FA4D-5330-9577-364E705EFA66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\network">
+      <UniqueIdentifier>{8C36E938-FA9B-50E4-B748-79CDC71E812D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\patterns">
+      <UniqueIdentifier>{E8EA76BC-CCAB-55CB-B81A-3A2964888D62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\patterns\game">
+      <UniqueIdentifier>{13ABA2F4-09F5-53EA-A111-4FB81FC18DAE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\patterns\game\assert_handler">
+      <UniqueIdentifier>{5853A827-E23B-53BE-87BE-4D16E636D327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\patterns\game\config_getter">
+      <UniqueIdentifier>{AF75EA49-09C9-5643-A392-53D14FE5E6A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\patterns\game\packages">
+      <UniqueIdentifier>{2D970F5F-E4E4-5865-A8AD-F2F520157D09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\patterns\game\retail_log">
+      <UniqueIdentifier>{E24B1B17-4D8F-5EBC-A9F3-6F6572A848DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\patterns\game\signon">
+      <UniqueIdentifier>{2A3A1440-166D-56E4-8397-DA1AA13D36E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\process">
+      <UniqueIdentifier>{1D661724-EB42-5932-9F54-BA0DC8116297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\process\freeze">
+      <UniqueIdentifier>{120C5691-407E-5A57-911D-AB640E6FD101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\runtime">
+      <UniqueIdentifier>{5C8DB4DB-CEC6-55C8-AED6-D5921FB553C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\runtime\host">
+      <UniqueIdentifier>{568CE79E-E131-5667-98AD-DDCD48AAF6CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\targets">
+      <UniqueIdentifier>{9F210DE3-4F66-5489-9646-CEC2E83964D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\targets\game">
+      <UniqueIdentifier>{3408AA17-3AD0-50DA-9C3D-DD8BAA745ADC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\targets\game\assert_handler">
+      <UniqueIdentifier>{496983B7-600B-5EB9-BEEB-83FB5FBA092C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\targets\game\config_getter">
+      <UniqueIdentifier>{798CC9BC-B6DD-51D7-B645-CD8837B0CFCD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\targets\game\network">
+      <UniqueIdentifier>{474042B1-5546-5B5D-B711-917A55513BED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\targets\game\packages">
+      <UniqueIdentifier>{61E9518D-4027-557C-975A-503679FAA61B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\targets\game\resolution">
+      <UniqueIdentifier>{01C77B7C-7E4C-52BF-B693-C1A983BDB798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\teleport">
+      <UniqueIdentifier>{F70B2AD5-802F-5085-97D9-AFCE31438F3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\ui">
+      <UniqueIdentifier>{DE02E630-B347-57AA-AAC6-A2696DA1C892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\ui\runtime">
+      <UniqueIdentifier>{741C0FB5-97ED-54C7-BADC-3F06B91497E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\ui\teleport">
+      <UniqueIdentifier>{A33D03C5-C3CB-59DD-857E-7157CCB8DB68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{B194F7FD-D56A-53C5-BED3-3EF839351C9E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\filesystem">
+      <UniqueIdentifier>{E130ABBB-1561-53A2-98AA-B25CD7119995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\logging">
+      <UniqueIdentifier>{76E1B79C-2473-563D-8624-26FD6B0B391C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\logging\snapshot">
+      <UniqueIdentifier>{1A6BDB30-DF66-581B-A5C3-50175EB5CEEC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\logging\view">
+      <UniqueIdentifier>{0FA108A8-618E-513C-9033-EEC3B3491248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\runtime">
+      <UniqueIdentifier>{62BDAF94-E6B9-5D82-87D4-F0CB514A0D90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\settings">
+      <UniqueIdentifier>{434025DE-8437-5494-A453-565C769D26A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\settings\client">
+      <UniqueIdentifier>{73078EA9-CD79-50AD-AC59-D048D54C3023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\settings\client\external">
+      <UniqueIdentifier>{F79E7510-0547-5500-8A8E-F71A832A2C49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\settings\server">
+      <UniqueIdentifier>{66CD4EAA-4D3C-5272-9433-DBEBB3C153C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\settings\state">
+      <UniqueIdentifier>{3D0F9133-D036-5865-98F0-71CF283215FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\settings\steam">
+      <UniqueIdentifier>{E51452A3-746D-5DF5-8B0D-F73621A21308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui">
+      <UniqueIdentifier>{1C533B0D-7150-5B6F-94B8-3EAA4D9B3013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\animation">
+      <UniqueIdentifier>{C348DDAA-D354-5179-84D7-F9ECB561E5AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\animation\transition">
+      <UniqueIdentifier>{FBAC1F7E-987F-5B7A-B4F0-FF8557F25133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\busy">
+      <UniqueIdentifier>{838F403F-6C81-56CF-856E-F27F87AB016D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\components">
+      <UniqueIdentifier>{12D865D2-B2F7-5F9D-884C-53C6BBE912DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\components\card">
+      <UniqueIdentifier>{E6E8D68D-4445-5698-A563-48AA165BF0F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\components\drawing">
+      <UniqueIdentifier>{A88746A8-85A5-59A3-8A05-71A2EC4734BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\components\filter">
+      <UniqueIdentifier>{D9B723F1-DF8B-5A75-9FB7-3EE89C8FE28A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\components\navigation">
+      <UniqueIdentifier>{4C1E501C-BD8A-57C5-984E-CD855CF49903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\components\picker">
+      <UniqueIdentifier>{D6C88273-2855-5E6F-BB95-B74C559794A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\components\section">
+      <UniqueIdentifier>{DF12E0E1-32BD-50A9-A203-9A0A80C5A4C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\components\toggle">
+      <UniqueIdentifier>{AA107FED-B603-5D9D-9BAE-9EF06D57A233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\fonts">
+      <UniqueIdentifier>{B3589445-C8B4-52FB-9B1F-43C53A994C56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\fonts\installed">
+      <UniqueIdentifier>{481C7072-4394-5BC7-BE96-F2A6610C6C71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\fonts\runtime">
+      <UniqueIdentifier>{545EF9CA-0AF4-5985-BFD6-4420456D22FC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\layout">
+      <UniqueIdentifier>{D1AFF295-9359-5D9D-9D30-F325AB848A56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\layout\credits">
+      <UniqueIdentifier>{62ED8BE2-EB14-5A30-AA95-C56075D23301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\layout\navigation">
+      <UniqueIdentifier>{8B839ED6-FA0C-5D74-BBA5-5A53A5F23908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\memory">
+      <UniqueIdentifier>{02FFC71F-E89F-532D-A65B-A951A694F351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\memory\fixed">
+      <UniqueIdentifier>{852FCE45-2C6D-57B0-86B0-27C56027929D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\modules">
+      <UniqueIdentifier>{FF4C7F4F-1CFD-5631-B7DF-72728DFC6A88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\modules\logs">
+      <UniqueIdentifier>{886EE437-6FAA-51FA-AE14-219CB32321BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\modules\logs\filters">
+      <UniqueIdentifier>{EE76A937-CDB3-5516-96CE-5D046D360931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\modules\registry">
+      <UniqueIdentifier>{308E9052-21F0-54EF-846E-57425B011E42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\notice">
+      <UniqueIdentifier>{FED2F24B-162D-500E-8123-B291985A3946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\runtime">
+      <UniqueIdentifier>{A4F1FCD8-965B-513E-8C39-2A2490204C1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\scaling">
+      <UniqueIdentifier>{B8D3680E-7520-524C-846A-E7DD0EFB9555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\scaling\dpi">
+      <UniqueIdentifier>{9D359229-AEFC-5290-9767-754B18F69246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\ui\theme">
+      <UniqueIdentifier>{75A84ED0-F1FD-528A-87A2-DA2E1ECCCEFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware">
+      <UniqueIdentifier>{CF32D041-C344-52E8-8984-C36CA8AC3C66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\bap">
+      <UniqueIdentifier>{3762B1C9-40D6-5B8F-BB88-FDD3A79D934C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\bap\account_translation">
+      <UniqueIdentifier>{2AB3918E-D01B-5989-B796-A1543CE70068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\bap\activity_host">
+      <UniqueIdentifier>{244876AF-0155-5340-BDB8-10E477612E00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\bap\activity_host_manager">
+      <UniqueIdentifier>{C644956D-DEBD-5B02-943B-FE7E4D66CBC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\bap\activity_host_manager\request">
+      <UniqueIdentifier>{62E8A25C-5577-5EB0-9C70-DC723D39D6E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\bap\activity_host_manager\request\selection">
+      <UniqueIdentifier>{73B0396E-C03C-5642-B1E4-0EEF11666F01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\bap\activity_host_manager\response">
+      <UniqueIdentifier>{026FE62A-FC01-5DED-9DB4-4365999D5DF6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\bap\activity_message">
+      <UniqueIdentifier>{922B654C-D5DD-59DC-844E-4AAF36769549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\bap\client_config">
+      <UniqueIdentifier>{357857E4-F8D5-5392-9C5C-E4F3155A6B81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\bap\matchmaking">
+      <UniqueIdentifier>{D79C7FF3-2B14-5E86-8477-AB44750285B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\bap\matchmaking\request">
+      <UniqueIdentifier>{DCD79886-5E9D-5C45-8893-4D5D9B6EC954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\bap\matchmaking\response">
+      <UniqueIdentifier>{8DCD0CFA-6E4A-5EF1-A721-2C287DF8853B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\bap\user_message">
+      <UniqueIdentifier>{335FEC7E-9859-5B27-A16F-6D87691C100C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\compression">
+      <UniqueIdentifier>{730005EC-9F3F-54AC-A62D-F0A47F90005F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\compression\oodle">
+      <UniqueIdentifier>{A71F67FA-C02F-58D3-9725-670F3CE46CEF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\content">
+      <UniqueIdentifier>{C03F88D6-8AA1-52DB-AB7D-6E9CC947CE05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\content\manifest">
+      <UniqueIdentifier>{61E53169-946C-55F5-9F7A-0DD77F665479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\content\packages">
+      <UniqueIdentifier>{783086A5-BA56-5975-A1A4-1516078348B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\content\packages\named_tags">
+      <UniqueIdentifier>{6048339B-AEEE-5807-89F5-8235045C6F99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\content\packages\reader">
+      <UniqueIdentifier>{37761CED-F7AB-56B1-9AAB-7D54A719F166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\content\packages\tables">
+      <UniqueIdentifier>{B67F40C5-8BFA-59B5-833A-C6D1C1184EDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\crypto">
+      <UniqueIdentifier>{B52F74AA-1276-5F45-8043-F42182C2E6AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\datagen">
+      <UniqueIdentifier>{42419D25-AB48-5334-9963-5322D8217A96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\datagen\character_record">
+      <UniqueIdentifier>{BE15B26C-D93B-5851-9C34-C9419C228243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\datagen\character_record\appearance">
+      <UniqueIdentifier>{31BC8427-0C0A-576B-8FA8-AA7D88C841D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\datagen\family3">
+      <UniqueIdentifier>{FEB0597F-5EF6-5B1E-AAD6-0434271C57E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\datagen\family4">
+      <UniqueIdentifier>{4A12FB5E-5C5C-5762-A278-85E6E4616D6D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\datagen\family4\account">
+      <UniqueIdentifier>{4393F58B-C1B8-5A20-A518-D5C06F16E0B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\datagen\family4\account\preferences">
+      <UniqueIdentifier>{00B2A6A8-94A6-5E38-B084-8AA1D9F1389F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\datagen\family4\account\selection_patch">
+      <UniqueIdentifier>{E6357BED-2EB1-52DB-93D0-1D58C28BE1E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\datagen\family4\character">
+      <UniqueIdentifier>{2112DC8C-A136-5F0A-895C-06207ACE9D01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\datagen\family4\instance">
+      <UniqueIdentifier>{C0652EB9-81C4-5EBC-B397-FFA2497FDB83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\datagen\family4\inventory">
+      <UniqueIdentifier>{810549FD-F0FF-5C2C-96CA-A89A66E84489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\datagen\family4\loadout">
+      <UniqueIdentifier>{DF2E35EF-6846-53AF-8E05-9B59274D4ACB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\datagen\family4\progression">
+      <UniqueIdentifier>{26620584-F474-5B7E-9510-17EB97A17FAB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\datagen\roster">
+      <UniqueIdentifier>{42088E13-B211-537A-8FA8-E1891240AEF7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\encoding">
+      <UniqueIdentifier>{20111A9D-1417-58E7-B934-F31E2EE9A85B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\protobuf">
+      <UniqueIdentifier>{487083BF-1A66-5D57-A5B3-A603F1112DC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\queuez">
+      <UniqueIdentifier>{80291901-99FF-5422-B4A9-3D641D2DA593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\runtime">
+      <UniqueIdentifier>{60E21AE6-52D5-5507-BB70-35C704386A0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\secure_channel">
+      <UniqueIdentifier>{7BEC65BF-4FFF-5E39-B1E9-C1F2542E459A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\signon">
+      <UniqueIdentifier>{E6E60DD3-9824-55DD-8907-C3BBC10FE8D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\signon\config">
+      <UniqueIdentifier>{BA8FE689-9009-5F37-B5D9-6EB828823DFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\signon\extended">
+      <UniqueIdentifier>{5D0EB049-4093-569C-B63B-7F311F355EE8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\signon\ownership">
+      <UniqueIdentifier>{63C33CD9-37A4-55F5-8057-36E1FBB126AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\web_service">
+      <UniqueIdentifier>{3A9BD758-8EDD-5864-9160-50922354D3D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\web_service\messages">
+      <UniqueIdentifier>{80B50ACE-338B-51F1-91BF-AF2A4C107E67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\web_service\messages\family5">
+      <UniqueIdentifier>{27961545-17F4-5C79-8D6C-A816E93AF22B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\web_service\messages\opcode205">
+      <UniqueIdentifier>{4F690968-B0BB-520F-A057-72990667EFEC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\web_service\messages\opcode503">
+      <UniqueIdentifier>{8E651709-1926-5B7B-ADF2-6EF2F090CAC9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\middleware\web_service\messages\opcode505">
+      <UniqueIdentifier>{2F7B929F-51F3-5AC1-BD57-FA696CA53087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server">
+      <UniqueIdentifier>{9F8DC06F-1A88-5405-8AB4-8D353D6D5513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server\bap">
+      <UniqueIdentifier>{52ACCD99-9FB3-5A35-BBB3-523CC5A6E863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server\bap\encrypted">
+      <UniqueIdentifier>{A115A107-6643-5C04-A9E8-E6A1649B6EB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server\bap\encrypted\activity_host_manager">
+      <UniqueIdentifier>{800A22DD-AEFD-51E1-9171-297D2EDFC1E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server\bap\encrypted\activity_message">
+      <UniqueIdentifier>{3E9E8637-DF31-57CB-9DFD-B5B33C88F84B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server\bap\encrypted\activity_message\membership">
+      <UniqueIdentifier>{44591B53-5222-5CAF-9D6A-D9E900E04C96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server\bap\encrypted\activity_message\patch_epoch">
+      <UniqueIdentifier>{0A344767-82F1-536C-BA8A-C0F5EE8DD8B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server\bap\encrypted\activity_transaction">
+      <UniqueIdentifier>{BAF02211-8ABC-50B7-83FA-F520C8BD1A16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server\bap\encrypted\body">
+      <UniqueIdentifier>{A6C06744-537B-5195-BA22-A5CDA9361216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server\bap\encrypted\matchmaking">
+      <UniqueIdentifier>{59EB7CB8-8CD3-583F-8909-5B300F57176B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server\bap\encrypted\push">
+      <UniqueIdentifier>{0598D1C2-8491-5C71-B02F-D13574491FE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server\bap\encrypted\push\activity">
+      <UniqueIdentifier>{E795F5BC-6BE8-5F5C-BD87-AB59F44CA64A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server\bap\encrypted\push\queuez">
+      <UniqueIdentifier>{14F89509-8CC0-5386-858B-93E37CFB48D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server\bap\encrypted\push\snapshot">
+      <UniqueIdentifier>{BDEC7C6E-B21D-5AC0-A494-1509B566E612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server\bap\encrypted\queuez">
+      <UniqueIdentifier>{5CAC267C-D889-576E-A7A8-2042222F4758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server\bap\encrypted\queuez\staging">
+      <UniqueIdentifier>{C91E8C65-D311-5431-927A-43E547D730AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server\bap\encrypted\reply">
+      <UniqueIdentifier>{3A13FA22-1C04-5BAD-80CF-C29E0036B6A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server\bap\encrypted\routing">
+      <UniqueIdentifier>{A17A07DF-B7AA-59B5-A2B2-43A76B245CF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server\bap\encrypted\transactions">
+      <UniqueIdentifier>{C2DF3BDA-35F3-5E83-8004-B281773BC527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server\http">
+      <UniqueIdentifier>{707E0871-9289-5DF3-8470-E0533E8D0BDA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server\runtime">
+      <UniqueIdentifier>{073D8AE7-14E3-52E6-B0A5-2155B26267C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server\transport">
+      <UniqueIdentifier>{A9D85DF6-E7E5-5C08-BC9C-B5E6D9DA57A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server\ui">
+      <UniqueIdentifier>{6EA4E290-0AFB-59A7-8B57-A9BC91AD6F63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server\ui\activity_override">
+      <UniqueIdentifier>{1EE6F473-6673-50ED-A4D2-1D7832DC3401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server\ui\runtime">
+      <UniqueIdentifier>{25B3404C-1F72-5DB9-81B2-0AB6BC3D2B59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server\web_service">
+      <UniqueIdentifier>{718DEF27-A46F-5C09-98D5-AE6AF6A8BA7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state">
+      <UniqueIdentifier>{FDD6B988-32FE-505D-B7E3-575827CD67A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\account">
+      <UniqueIdentifier>{B170EFB0-B704-5488-B1F8-5073887AA3E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\account\inventory">
+      <UniqueIdentifier>{CC738710-0C38-56A7-9E68-2265D67BC712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\account\settings">
+      <UniqueIdentifier>{97EAF19F-79AC-55F7-BFA3-630ECC0C43B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\activity">
+      <UniqueIdentifier>{EABF6D3D-619E-528D-B1E1-332BC9623C83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\activity\bubble_authority">
+      <UniqueIdentifier>{9F9D3009-A953-511A-8E75-FD697259CC9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\activity\bubble_authority\transactions">
+      <UniqueIdentifier>{D100A6B9-7811-5117-9D0A-C2B90E68F0FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\activity\defaults">
+      <UniqueIdentifier>{362BB46C-06C4-593C-929F-0CBB173116EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\activity\destination">
+      <UniqueIdentifier>{8D80C0E2-5308-5B57-B0AD-CE8384ED742E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\activity\entity_slots">
+      <UniqueIdentifier>{4B82B36B-58A3-5D3E-9B38-85315960323D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\activity\entity_slots\transactions">
+      <UniqueIdentifier>{DDA0193B-D8F2-5DFC-A6B2-18B0E087B2D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\activity\forced">
+      <UniqueIdentifier>{49E55EEC-BCA9-53FF-99A7-BE22A7E55966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\activity\membership">
+      <UniqueIdentifier>{4E013E4A-B12E-5C5F-A145-369C6427640B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\activity\membership\transactions">
+      <UniqueIdentifier>{A869BBEA-BB6F-578F-9116-90A9196110FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\activity\transactions">
+      <UniqueIdentifier>{1EDA1F9F-3551-5D65-8194-E0967FE8C8FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\build_data">
+      <UniqueIdentifier>{58E0B766-CB71-548C-A38D-70B2B7C3528C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\build_data\abilities">
+      <UniqueIdentifier>{BD021CC0-30B5-509A-A9E6-54EE129531EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\build_data\cache">
+      <UniqueIdentifier>{711A59C6-06A3-5AAF-B1E9-C890536607B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\build_data\cache\read">
+      <UniqueIdentifier>{A5CF7EBD-1D21-5A70-BA18-476FF7A833E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\build_data\cache\records">
+      <UniqueIdentifier>{F5A91327-9EF9-5637-B2AF-44C9BD51143B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\build_data\cache\write">
+      <UniqueIdentifier>{03673131-FAA1-50A8-AB4F-B1D03372ECA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\build_data\cache\write\temporary">
+      <UniqueIdentifier>{228D3740-C362-54C5-BBA9-11006E532DB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\build_data\cache\write\validation">
+      <UniqueIdentifier>{42D5D8D1-D985-5748-B604-23AA25369840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\build_data\constants">
+      <UniqueIdentifier>{F152A8D8-C529-5FD1-BB7E-F3986A4DD49F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\build_data\hash_names">
+      <UniqueIdentifier>{1B93F771-0A0F-5AB3-B5AF-73D410D332D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\build_data\inventory">
+      <UniqueIdentifier>{A1858731-F497-555C-A4D0-1DA3A2C993FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\build_data\inventory\buckets">
+      <UniqueIdentifier>{1C3B84A6-BF24-512A-97BD-7D0E4DEF2BA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\build_data\items">
+      <UniqueIdentifier>{F64A4FCE-05EC-5677-B7E1-F99EF2FDDE0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\build_data\items\details">
+      <UniqueIdentifier>{8C67F3FE-992D-5EEA-A6E7-6BDD41A20037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\build_data\progressions">
+      <UniqueIdentifier>{06DA8AB9-E744-5625-9CD8-58A6FFC99018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\build_data\runtime">
+      <UniqueIdentifier>{D6E5087F-1F2F-5459-AFA6-C0C7AA68B9B5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\build_data\runtime\persistence">
+      <UniqueIdentifier>{FD7BD169-33BE-5EC2-ACA2-7CFF56AFE630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\build_data\scenarios">
+      <UniqueIdentifier>{BE76D927-02B6-56D2-95FF-EF4B1B957A0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\build_data\socket_entry_lists">
+      <UniqueIdentifier>{91582BC4-D755-5183-A6B4-C88521EB2EA8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\build_data\spawn_sets">
+      <UniqueIdentifier>{26DD0BFF-E647-5B9C-A748-D936022F6251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\content">
+      <UniqueIdentifier>{ED9822A3-1B18-58BE-8CA7-385DA50F9478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\content_manifest">
+      <UniqueIdentifier>{D0E5D86C-3005-5981-BB54-F34ED732EAE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\content_manifest\cache">
+      <UniqueIdentifier>{7ECD346A-E2A5-5C5A-9DA4-8D92ADA47C35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\content_manifest\fingerprint">
+      <UniqueIdentifier>{CF66CAA5-C431-521E-96DE-82975E4334E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\content_manifest\scanner">
+      <UniqueIdentifier>{85DEBE9C-C3E0-52CE-BB7D-713E61A4435A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\content_manifest\scanner\package">
+      <UniqueIdentifier>{E2DE464D-3C87-554C-ACFE-C1A59CC559A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\entitlements">
+      <UniqueIdentifier>{BB94664A-AEC9-574D-BFA6-F450AAD8E1A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\equipment">
+      <UniqueIdentifier>{B6EF41C2-9902-53F5-BC20-3A9CD3D72C5A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\equipment\light">
+      <UniqueIdentifier>{474C1CC8-376D-5D39-B58B-CDD49B4E4C90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\equipment\light\calculation">
+      <UniqueIdentifier>{33126A88-E09A-5616-A9B3-065237DEB3B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\equipment\light\resolution">
+      <UniqueIdentifier>{807A063B-3EE0-5D11-B2D3-E8F4587B434E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\investment">
+      <UniqueIdentifier>{4319258E-8032-5F9A-A85F-A10F5C559A22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\matchmaking">
+      <UniqueIdentifier>{008E0F21-78BC-53D2-81E9-72BD469F27D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\matchmaking\transactions">
+      <UniqueIdentifier>{7879DF00-C658-5830-853A-747703D0B729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\runtime">
+      <UniqueIdentifier>{6896EE8C-FE5C-5BE6-A69F-BA2DBAF0C957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\runtime\equipment">
+      <UniqueIdentifier>{E9F3446B-1095-59C6-85BD-B7ACFEAD0759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\runtime\storage">
+      <UniqueIdentifier>{D8EDAEAB-2116-5E9F-BAAD-400EEC5DCEAD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state\unlocks">
+      <UniqueIdentifier>{472B0BCA-48B2-51ED-85E7-8863E12E087B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\steam">
+      <UniqueIdentifier>{A9380A7F-BE1C-5EFD-A925-58F10A87A8CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\steam\interfaces">
+      <UniqueIdentifier>{C2A08853-BFA2-5DCE-B3E4-80C9C74FB698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\steam\interfaces\methods">
+      <UniqueIdentifier>{2759CD74-1FC9-5DD8-B736-8773C11500BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\steam\interfaces\tables">
+      <UniqueIdentifier>{65690CB0-75F7-52E1-ABD0-9E6828C6AC0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\steam\runtime">
+      <UniqueIdentifier>{9D4DBB8C-F4E0-586B-90B7-6F6E2C221AE4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\steam\runtime\callbacks">
+      <UniqueIdentifier>{4C5C4F29-CA11-58B7-9483-3DAA3605AE18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\steam\runtime\context">
+      <UniqueIdentifier>{7683946E-30C0-5F3E-8546-B13F5338078F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor">
+      <UniqueIdentifier>{3DCCD337-4EF4-5ABF-939A-B920EA69DC6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\detours">
+      <UniqueIdentifier>{40D7AC7C-DBD3-54FE-AA16-9E6174B57D72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\imgui">
+      <UniqueIdentifier>{EBE1C9F5-898F-5AEA-AB7D-D7BA6705A235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\imgui\backends">
+      <UniqueIdentifier>{54111883-0EB5-5FB8-9DC6-4E32FFCDACFE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resources\sunrise.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\default_settings.json">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="vendor\detours\LICENSE.md">
+      <Filter>vendor\detours</Filter>
+    </None>
+    <None Include="vendor\imgui\LICENSE.txt">
+      <Filter>vendor\imgui</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dllmain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\logging\log.cpp">
+      <Filter>src\core\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\logging\snapshot\log_snapshot_ring.cpp">
+      <Filter>src\core\logging\snapshot</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\logging\view\log_snapshot_view.cpp">
+      <Filter>src\core\logging\view</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\filesystem\path.cpp">
+      <Filter>src\core\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\filesystem\temporary_sibling.cpp">
+      <Filter>src\core\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\settings\settings_parser.cpp">
+      <Filter>src\core\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\settings\json_number.cpp">
+      <Filter>src\core\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\settings\json_scalar.cpp">
+      <Filter>src\core\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\settings\json_structure.cpp">
+      <Filter>src\core\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\settings\settings_runtime.cpp">
+      <Filter>src\core\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\settings\client\client_settings_parser.cpp">
+      <Filter>src\core\settings\client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\settings\client\client_ui_settings_parser.cpp">
+      <Filter>src\core\settings\client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\settings\server\server_settings_parser.cpp">
+      <Filter>src\core\settings\server</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\settings\server\entitlement_settings_parser.cpp">
+      <Filter>src\core\settings\server</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\settings\steam\steam_settings_parser.cpp">
+      <Filter>src\core\settings\steam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\settings\state\account_settings_parser.cpp">
+      <Filter>src\core\settings\state</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\settings\state\family5_override_parser.cpp">
+      <Filter>src\core\settings\state</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\settings\state\activity_default_destination_parser.cpp">
+      <Filter>src\core\settings\state</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\settings\state\inventory_parser.cpp">
+      <Filter>src\core\settings\state</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\settings\state\audio_parser.cpp">
+      <Filter>src\core\settings\state</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\settings\state\controls_parser.cpp">
+      <Filter>src\core\settings\state</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\settings\state\display_parser.cpp">
+      <Filter>src\core\settings\state</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\settings\state\interface_parser.cpp">
+      <Filter>src\core\settings\state</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\settings\state\key_bindings_parser.cpp">
+      <Filter>src\core\settings\state</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\settings\state\social_parser.cpp">
+      <Filter>src\core\settings\state</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\runtime\core_runtime.cpp">
+      <Filter>src\core\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\modules\ui_module_descriptor.cpp">
+      <Filter>src\core\ui\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\modules\registry\ui_module_registry.cpp">
+      <Filter>src\core\ui\modules\registry</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\modules\logs\logs_module_runtime.cpp">
+      <Filter>src\core\ui\modules\logs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\modules\logs\logs_clipboard_writer.cpp">
+      <Filter>src\core\ui\modules\logs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\cursor\cursor_guard_replacements.cpp">
+      <Filter>src\client\hooks\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\cursor\cursor_hook_lifecycle.cpp">
+      <Filter>src\client\hooks\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\graphics\renderer\graphics_renderer_device.cpp">
+      <Filter>src\client\hooks\graphics\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\web_service\messages\opcode504_codec.cpp">
+      <Filter>src\middleware\web_service\messages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\runtime\state_account_runtime.cpp">
+      <Filter>src\state\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\busy\ui_busy_overlay.cpp">
+      <Filter>src\core\ui\busy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\busy\ui_busy_state.cpp">
+      <Filter>src\core\ui\busy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\notice\ui_notice_overlay.cpp">
+      <Filter>src\core\ui\notice</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\modules\logs\logs_panel_render.cpp">
+      <Filter>src\core\ui\modules\logs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\modules\logs\filters\logs_filter_controls.cpp">
+      <Filter>src\core\ui\modules\logs\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\runtime\ui_visibility_runtime.cpp">
+      <Filter>src\core\ui\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\memory\fixed\ui_fixed_allocator.cpp">
+      <Filter>src\core\ui\memory\fixed</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\memory\fixed\ui_fixed_arena.cpp">
+      <Filter>src\core\ui\memory\fixed</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\animation\transition\ui_transition_animation.cpp">
+      <Filter>src\core\ui\animation\transition</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\components\card\ui_card_component.cpp">
+      <Filter>src\core\ui\components\card</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\components\filter\ui_filter_component.cpp">
+      <Filter>src\core\ui\components\filter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\components\picker\ui_picker_component.cpp">
+      <Filter>src\core\ui\components\picker</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\components\navigation\ui_navigation_component.cpp">
+      <Filter>src\core\ui\components\navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\components\section\ui_section_component.cpp">
+      <Filter>src\core\ui\components\section</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\components\toggle\ui_toggle_component.cpp">
+      <Filter>src\core\ui\components\toggle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\fonts\installed\ui_installed_font_reader.cpp">
+      <Filter>src\core\ui\fonts\installed</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\fonts\runtime\ui_runtime_font_lifecycle.cpp">
+      <Filter>src\core\ui\fonts\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\scaling\dpi\ui_dpi_scaling.cpp">
+      <Filter>src\core\ui\scaling\dpi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\theme\sunrise_ui_theme.cpp">
+      <Filter>src\core\ui\theme</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\layout\ui_layout_lifecycle.cpp">
+      <Filter>src\core\ui\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\layout\navigation\ui_layout_navigation.cpp">
+      <Filter>src\core\ui\layout\navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\layout\ui_layout_render.cpp">
+      <Filter>src\core\ui\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ui\layout\credits\sunrise_credits_badge.cpp">
+      <Filter>src\core\ui\layout\credits</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\runtime\client_hook_activation.cpp">
+      <Filter>src\client\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\runtime\client_platform_hook_activation.cpp">
+      <Filter>src\client\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\runtime\host\game_host_classification.cpp">
+      <Filter>src\client\runtime\host</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\runtime\client_runtime_lifecycle.cpp">
+      <Filter>src\client\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\graphics\discovery\graphics_target_discovery.cpp">
+      <Filter>src\client\hooks\graphics\discovery</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\graphics\graphics_hook_lifecycle.cpp">
+      <Filter>src\client\hooks\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\graphics\graphics_hook_replacements.cpp">
+      <Filter>src\client\hooks\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\graphics\input\graphics_window_input.cpp">
+      <Filter>src\client\hooks\graphics\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\graphics\input\graphics_raw_input_window.cpp">
+      <Filter>src\client\hooks\graphics\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\polled_input\polled_input_lifecycle.cpp">
+      <Filter>src\client\hooks\polled_input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\polled_input\polled_input_replacements.cpp">
+      <Filter>src\client\hooks\polled_input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\banner\banner_bind.cpp">
+      <Filter>src\client\hooks\banner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\banner\banner_hook_lifecycle.cpp">
+      <Filter>src\client\hooks\banner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\datagen\family4\loadout\subclass_socket_selection.cpp">
+      <Filter>src\middleware\datagen\family4\loadout</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\cache\records\cache_socket_record_codec.cpp">
+      <Filter>src\state\build_data\cache\records</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\graphics\renderer\selection\graphics_swap_chain_selection.cpp">
+      <Filter>src\client\hooks\graphics\renderer\selection</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\graphics\renderer\graphics_renderer_lifecycle.cpp">
+      <Filter>src\client\hooks\graphics\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\graphics\renderer\graphics_renderer_frame.cpp">
+      <Filter>src\client\hooks\graphics\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\egress\dns\egress_dns_replacements.cpp">
+      <Filter>src\client\hooks\egress\dns</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\egress\resolver\egress_resolver_forward.cpp">
+      <Filter>src\client\hooks\egress\resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\egress\resolver\egress_resolver_reverse.cpp">
+      <Filter>src\client\hooks\egress\resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\egress\extensions\egress_extension_replacements.cpp">
+      <Filter>src\client\hooks\egress\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\egress\lifecycle\egress_guard_lifecycle.cpp">
+      <Filter>src\client\hooks\egress\lifecycle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\egress\lifecycle\egress_guard_modules.cpp">
+      <Filter>src\client\hooks\egress\lifecycle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\egress\lifecycle\egress_guard_exports.cpp">
+      <Filter>src\client\hooks\egress\lifecycle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\egress\policy\egress_policy_logging.cpp">
+      <Filter>src\client\hooks\egress\policy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\egress\policy\egress_policy_endpoint.cpp">
+      <Filter>src\client\hooks\egress\policy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\egress\winsock\connection\egress_connection_replacements.cpp">
+      <Filter>src\client\hooks\egress\winsock\connection</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\egress\winsock\control\egress_control_replacement.cpp">
+      <Filter>src\client\hooks\egress\winsock\control</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\egress\winsock\discovery\egress_discovery_responder.cpp">
+      <Filter>src\client\hooks\egress\winsock\discovery</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\egress\winsock\reception\egress_reception_replacements.cpp">
+      <Filter>src\client\hooks\egress\winsock\reception</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\egress\winsock\transmission\egress_transmission_replacements.cpp">
+      <Filter>src\client\hooks\egress\winsock\transmission</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\egress\winsock\transmission\egress_datagram_transmission.cpp">
+      <Filter>src\client\hooks\egress\winsock\transmission</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\egress\winsock\transmission\egress_message_transmission.cpp">
+      <Filter>src\client\hooks\egress\winsock\transmission</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\ui\runtime\client_ui_module_runtime.cpp">
+      <Filter>src\client\ui\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\ui\teleport\teleport_panel.cpp">
+      <Filter>src\client\ui\teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\teleport\teleport_settings_store.cpp">
+      <Filter>src\client\teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\teleport\teleport_lifecycle.cpp">
+      <Filter>src\client\hooks\teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\teleport\teleport_move.cpp">
+      <Filter>src\client\hooks\teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\teleport\teleport_action_key.cpp">
+      <Filter>src\client\hooks\teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooking\detour.cpp">
+      <Filter>src\client\hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooking\detour\protected_detour_uninstall.cpp">
+      <Filter>src\client\hooking\detour</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooking\detour\transaction\detour_thread_transaction.cpp">
+      <Filter>src\client\hooking\detour\transaction</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\executable\image.cpp">
+      <Filter>src\client\executable</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\memory\current_process_memory.cpp">
+      <Filter>src\client\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\network\investment\investment_derived_rebuild.cpp">
+      <Filter>src\client\hooks\network\investment</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\network\investment\investment_family5_rearm.cpp">
+      <Filter>src\client\hooks\network\investment</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\bitmap\bitmap_hook_lifecycle.cpp">
+      <Filter>src\client\hooks\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\bitmap\bitmap_ref_guard.cpp">
+      <Filter>src\client\hooks\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\external_server\external_server_route.cpp">
+      <Filter>src\client\hooks\external_server</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\external_server\external_server_setopt_guard.cpp">
+      <Filter>src\client\hooks\external_server</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\bootflow\bootflow_hook_lifecycle.cpp">
+      <Filter>src\client\hooks\bootflow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\bootflow\character_select_hold.cpp">
+      <Filter>src\client\hooks\bootflow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\bootflow\composition_check.cpp">
+      <Filter>src\client\hooks\bootflow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\bootflow\orbit_handoff.cpp">
+      <Filter>src\client\hooks\bootflow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\bootflow\owner_activity_slot.cpp">
+      <Filter>src\client\hooks\bootflow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\bootflow\orbit_slice_set.cpp">
+      <Filter>src\client\hooks\bootflow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\bootflow\region_private.cpp">
+      <Filter>src\client\hooks\bootflow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\bootflow\profile_setup_skip.cpp">
+      <Filter>src\client\hooks\bootflow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\bootflow\join_request_ready.cpp">
+      <Filter>src\client\hooks\bootflow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\bootflow\world_step.cpp">
+      <Filter>src\client\hooks\bootflow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\bootflow\spawn_hold.cpp">
+      <Filter>src\client\hooks\bootflow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\bootflow\spawn\spawn_gate_probe.cpp">
+      <Filter>src\client\hooks\bootflow\spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\bootflow\spawn\spawn_gate_targets.cpp">
+      <Filter>src\client\hooks\bootflow\spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\bootflow\spawn\spawn_gate_record_dump.cpp">
+      <Filter>src\client\hooks\bootflow\spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\bootflow\fade_release.cpp">
+      <Filter>src\client\hooks\bootflow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\push\activity\activity_arrival.cpp">
+      <Filter>src\server\bap\encrypted\push\activity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_host_manager\request\selection\activity_manager_selection_bits.cpp">
+      <Filter>src\middleware\bap\activity_host_manager\request\selection</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_host_manager\request\selection\activity_manager_selection_snapshot.cpp">
+      <Filter>src\middleware\bap\activity_host_manager\request\selection</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\settings\state\activity_arrival_override_parser.cpp">
+      <Filter>src\core\settings\state</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\queuez\family0_subscription.cpp">
+      <Filter>src\client\hooks\queuez</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\queuez\svc123_null_payload_guard.cpp">
+      <Filter>src\client\hooks\queuez</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\queuez\queuez_hook_lifecycle.cpp">
+      <Filter>src\client\hooks\queuez</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\diagnostics\content_readiness_report.cpp">
+      <Filter>src\client\content\diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\network\bubble_authority\bubble_authority_replacements.cpp">
+      <Filter>src\client\hooks\network\bubble_authority</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\network\bubble_authority\scope\bubble_authority_scope.cpp">
+      <Filter>src\client\hooks\network\bubble_authority\scope</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\network\http\http_descriptor_route.cpp">
+      <Filter>src\client\hooks\network\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\network\http\http_executor_replacement.cpp">
+      <Filter>src\client\hooks\network\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\network\http\http_worker_completion.cpp">
+      <Filter>src\client\hooks\network\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\network\signon\signon_readiness_replacements.cpp">
+      <Filter>src\client\hooks\network\signon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\patterns\game\signon\signon_readiness_signature_bytes.cpp">
+      <Filter>src\client\patterns\game\signon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\settings\client\external\client_external_settings_parser.cpp">
+      <Filter>src\core\settings\client\external</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\targets\game\game_retail_log_targets.cpp">
+      <Filter>src\client\targets\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\patterns\game\retail_log\retail_log_signature_bytes.cpp">
+      <Filter>src\client\patterns\game\retail_log</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\retail_log\retail_log_enqueue_observer.cpp">
+      <Filter>src\client\hooks\retail_log</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\retail_log\retail_log_lifecycle.cpp">
+      <Filter>src\client\hooks\retail_log</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\assert_handler\assert_handler_lifecycle.cpp">
+      <Filter>src\client\hooks\assert_handler</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\assert_handler\assert_handler_observer.cpp">
+      <Filter>src\client\hooks\assert_handler</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\targets\game\assert_handler\game_assert_targets.cpp">
+      <Filter>src\client\targets\game\assert_handler</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\targets\game\packages\game_package_targets.cpp">
+      <Filter>src\client\targets\game\packages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\targets\game\config_getter\game_config_getter_targets.cpp">
+      <Filter>src\client\targets\game\config_getter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\patterns\game\config_getter\config_getter_signature_bytes.cpp">
+      <Filter>src\client\patterns\game\config_getter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\config_getter\config_getter_lifecycle.cpp">
+      <Filter>src\client\hooks\config_getter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\config_getter\config_getter_answers.cpp">
+      <Filter>src\client\hooks\config_getter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\patterns\game\packages\package_key_signature_bytes.cpp">
+      <Filter>src\client\patterns\game\packages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\patterns\game\assert_handler\assert_signature_bytes.cpp">
+      <Filter>src\client\patterns\game\assert_handler</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\network\coordinator\network_call_coordinator.cpp">
+      <Filter>src\client\hooks\network\coordinator</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\network\network_call_quiescence.cpp">
+      <Filter>src\client\hooks\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\network\content_config\coordinator\content_config_call_coordinator.cpp">
+      <Filter>src\client\hooks\network\content_config\coordinator</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\network\content_config\gate\content_config_signature_gate.cpp">
+      <Filter>src\client\hooks\network\content_config\gate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\network\content_config\lifecycle\content_config_hook_install.cpp">
+      <Filter>src\client\hooks\network\content_config\lifecycle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\network\content_config\lifecycle\content_config_hook_lifecycle.cpp">
+      <Filter>src\client\hooks\network\content_config\lifecycle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\network\content_config\lifecycle\content_config_hook_storage.cpp">
+      <Filter>src\client\hooks\network\content_config\lifecycle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\network\content_config\lifecycle\content_config_hook_uninstall.cpp">
+      <Filter>src\client\hooks\network\content_config\lifecycle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\network\content_config\request\content_config_get_replacement.cpp">
+      <Filter>src\client\hooks\network\content_config\request</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\network\content_config\tick\content_config_tick_replacement.cpp">
+      <Filter>src\client\hooks\network\content_config\tick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\network\lifecycle\network_hook_group.cpp">
+      <Filter>src\client\hooks\network\lifecycle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\network\lifecycle\network_hook_entries.cpp">
+      <Filter>src\client\hooks\network\lifecycle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\network\lifecycle\network_hook_lifecycle.cpp">
+      <Filter>src\client\hooks\network\lifecycle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\network\network_consumer_registration.cpp">
+      <Filter>src\client\hooks\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\network\platform.cpp">
+      <Filter>src\client\hooks\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\patterns\registry.cpp">
+      <Filter>src\client\patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\patterns\image_scan.cpp">
+      <Filter>src\client\patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\patterns\game_signatures.cpp">
+      <Filter>src\client\patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\patterns\steam_signatures.cpp">
+      <Filter>src\client\patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\targets\steam_targets.cpp">
+      <Filter>src\client\targets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\targets\game\game_content_targets.cpp">
+      <Filter>src\client\targets\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\targets\game\game_network_targets.cpp">
+      <Filter>src\client\targets\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\targets\game\network\network_content_derivation.cpp">
+      <Filter>src\client\targets\game\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\targets\game\resolution\game_target_resolution.cpp">
+      <Filter>src\client\targets\game\resolution</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\detours\detours.cpp">
+      <Filter>vendor\detours</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\detours\disasm.cpp">
+      <Filter>vendor\detours</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\detours\modules.cpp">
+      <Filter>vendor\detours</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui.cpp">
+      <Filter>vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_draw.cpp">
+      <Filter>vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_tables.cpp">
+      <Filter>vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_widgets.cpp">
+      <Filter>vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\backends\imgui_impl_win32.cpp">
+      <Filter>vendor\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\backends\imgui_impl_dx11.cpp">
+      <Filter>vendor\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="src\steam\runtime\callbacks\callback_dispatch.cpp">
+      <Filter>src\steam\runtime\callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\steam\runtime\callbacks\callback_registry.cpp">
+      <Filter>src\steam\runtime\callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\steam\runtime\steam_lifecycle.cpp">
+      <Filter>src\steam\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\steam\runtime\context\steam_context_state.cpp">
+      <Filter>src\steam\runtime\context</Filter>
+    </ClCompile>
+    <ClCompile Include="src\steam\interfaces\methods\common.cpp">
+      <Filter>src\steam\interfaces\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="src\steam\interfaces\methods\apps_dlc.cpp">
+      <Filter>src\steam\interfaces\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="src\steam\interfaces\methods\apps_metadata.cpp">
+      <Filter>src\steam\interfaces\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="src\steam\interfaces\methods\friends.cpp">
+      <Filter>src\steam\interfaces\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="src\steam\interfaces\methods\signon_inputs.cpp">
+      <Filter>src\steam\interfaces\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="src\steam\interfaces\methods\app_ticket.cpp">
+      <Filter>src\steam\interfaces\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="src\steam\interfaces\methods\matchmaking.cpp">
+      <Filter>src\steam\interfaces\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="src\steam\interfaces\methods\serialized_networking.cpp">
+      <Filter>src\steam\interfaces\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="src\steam\interfaces\tables\common_tables.cpp">
+      <Filter>src\steam\interfaces\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\steam\interfaces\tables\network_tables.cpp">
+      <Filter>src\steam\interfaces\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\steam\interfaces\tables\table_runtime.cpp">
+      <Filter>src\steam\interfaces\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\steam\interfaces\steam_interface_factory.cpp">
+      <Filter>src\steam\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\runtime\state_runtime.cpp">
+      <Filter>src\state\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\activity\activity_session_lookup.cpp">
+      <Filter>src\state\activity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\activity\activity_world_arrival.cpp">
+      <Filter>src\state\activity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\activity\membership\activity_membership_query.cpp">
+      <Filter>src\state\activity\membership</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\unlocks\unlocks_runtime.cpp">
+      <Filter>src\state\unlocks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\entitlements\entitlement_defaults.cpp">
+      <Filter>src\state\entitlements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\entitlements\entitlement_runtime.cpp">
+      <Filter>src\state\entitlements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\entitlements\entitlement_validation.cpp">
+      <Filter>src\state\entitlements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\activity\defaults\activity_defaults_snapshot.cpp">
+      <Filter>src\state\activity\defaults</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\activity\defaults\activity_defaults_validation.cpp">
+      <Filter>src\state\activity\defaults</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\activity\destination\activity_destination_snapshot.cpp">
+      <Filter>src\state\activity\destination</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\activity\destination\activity_destination_validation.cpp">
+      <Filter>src\state\activity\destination</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\activity\transactions\activity_session_prepare.cpp">
+      <Filter>src\state\activity\transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\activity\transactions\activity_session_commit.cpp">
+      <Filter>src\state\activity\transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\activity\entity_slots\transactions\activity_entity_slot_prepare.cpp">
+      <Filter>src\state\activity\entity_slots\transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\activity\entity_slots\transactions\activity_entity_slot_commit.cpp">
+      <Filter>src\state\activity\entity_slots\transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\activity\bubble_authority\transactions\activity_bubble_authority_grant.cpp">
+      <Filter>src\state\activity\bubble_authority\transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\activity\membership\transactions\activity_membership_prepare_base.cpp">
+      <Filter>src\state\activity\membership\transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\activity\membership\transactions\activity_membership_authoritative_prepare.cpp">
+      <Filter>src\state\activity\membership\transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\activity\membership\transactions\activity_membership_authoritative_commit.cpp">
+      <Filter>src\state\activity\membership\transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\activity\membership\transactions\activity_membership_prepare.cpp">
+      <Filter>src\state\activity\membership\transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\activity\membership\transactions\activity_membership_commit.cpp">
+      <Filter>src\state\activity\membership\transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\matchmaking\matchmaking_state.cpp">
+      <Filter>src\state\matchmaking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\matchmaking\transactions\matchmaking_prepare.cpp">
+      <Filter>src\state\matchmaking\transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\matchmaking\transactions\matchmaking_commit.cpp">
+      <Filter>src\state\matchmaking\transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\runtime\equipment\configured_equipment_identity.cpp">
+      <Filter>src\state\runtime\equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\account\account_state.cpp">
+      <Filter>src\state\account</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\account\inventory\inventory_state.cpp">
+      <Filter>src\state\account\inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\account\settings\settings_state.cpp">
+      <Filter>src\state\account\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\equipment\light\calculation\equipment_light_calculation.cpp">
+      <Filter>src\state\equipment\light\calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\equipment\light\resolution\configured_equipment_light_resolver.cpp">
+      <Filter>src\state\equipment\light\resolution</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\content\content_catalog.cpp">
+      <Filter>src\state\content</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\content_manifest\cache\content_manifest_cache_reader.cpp">
+      <Filter>src\state\content_manifest\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\content_manifest\cache\content_manifest_cache_writer.cpp">
+      <Filter>src\state\content_manifest\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\content_manifest\fingerprint\content_manifest_fingerprint.cpp">
+      <Filter>src\state\content_manifest\fingerprint</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\content_manifest\content_manifest_state_runtime.cpp">
+      <Filter>src\state\content_manifest</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\content_manifest\scanner\content_manifest_directory_scan.cpp">
+      <Filter>src\state\content_manifest\scanner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\content_manifest\scanner\content_manifest_header_extraction.cpp">
+      <Filter>src\state\content_manifest\scanner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\content_manifest\scanner\package\content_manifest_package_header.cpp">
+      <Filter>src\state\content_manifest\scanner\package</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\content_manifest\scanner\package\content_manifest_package_name.cpp">
+      <Filter>src\state\content_manifest\scanner\package</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\content_manifest\content_manifest_row_validation.cpp">
+      <Filter>src\state\content_manifest</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\build_data_runtime.cpp">
+      <Filter>src\state\build_data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\runtime\persistence\build_data_persistence.cpp">
+      <Filter>src\state\build_data\runtime\persistence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\runtime\persistence\publication_transaction.cpp">
+      <Filter>src\state\build_data\runtime\persistence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\cache\read\cache_file_reader.cpp">
+      <Filter>src\state\build_data\cache\read</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\cache\read\cache_payload_reader.cpp">
+      <Filter>src\state\build_data\cache\read</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\cache\records\cache_domain_validation.cpp">
+      <Filter>src\state\build_data\cache\records</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\cache\records\cache_record_codec.cpp">
+      <Filter>src\state\build_data\cache\records</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\cache\records\cache_scenario_records.cpp">
+      <Filter>src\state\build_data\cache\records</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\cache\records\cache_spawn_set_records.cpp">
+      <Filter>src\state\build_data\cache\records</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\cache\records\cache_hash_name_records.cpp">
+      <Filter>src\state\build_data\cache\records</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\cache\records\cache_detail_links.cpp">
+      <Filter>src\state\build_data\cache\records</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\scenarios\scenario_catalog.cpp">
+      <Filter>src\state\build_data\scenarios</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\spawn_sets\spawn_set_catalog.cpp">
+      <Filter>src\state\build_data\spawn_sets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\hash_names\hash_name_catalog.cpp">
+      <Filter>src\state\build_data\hash_names</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\activity\forced\activity_forced_destination.cpp">
+      <Filter>src\state\activity\forced</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\runtime\build_data_roster_runtime.cpp">
+      <Filter>src\state\build_data\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\scenarios\scenario_build.cpp">
+      <Filter>src\client\content\scenarios</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\scenarios\scenario_collect.cpp">
+      <Filter>src\client\content\scenarios</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\spawn_sets\spawn_set_build.cpp">
+      <Filter>src\client\content\spawn_sets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\hash_names\hash_name_build.cpp">
+      <Filter>src\client\content\hash_names</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\hash_names\hash_name_matcher.cpp">
+      <Filter>src\client\content\hash_names</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\spawn_sets\spawn_set_catalog_builder.cpp">
+      <Filter>src\client\content\spawn_sets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\scenarios\scenario_roster_build.cpp">
+      <Filter>src\client\content\scenarios</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\scenarios\scenario_roster_groups.cpp">
+      <Filter>src\client\content\scenarios</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\scenarios\scenario_roster_publish.cpp">
+      <Filter>src\client\content\scenarios</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\cache\write\cache_file_writer.cpp">
+      <Filter>src\state\build_data\cache\write</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\cache\write\temporary\temporary_cache_file.cpp">
+      <Filter>src\state\build_data\cache\write\temporary</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\cache\write\validation\cache_file_comparison.cpp">
+      <Filter>src\state\build_data\cache\write\validation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\cache\write\cache_payload_writer.cpp">
+      <Filter>src\state\build_data\cache\write</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\items\item_catalog.cpp">
+      <Filter>src\state\build_data\items</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\items\item_build_data_runtime.cpp">
+      <Filter>src\state\build_data\items</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\items\details\item_detail_catalog.cpp">
+      <Filter>src\state\build_data\items\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\constants\investment_constant_catalog.cpp">
+      <Filter>src\state\build_data\constants</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\abilities\ability_bucket_catalog.cpp">
+      <Filter>src\state\build_data\abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\progressions\progression_catalog.cpp">
+      <Filter>src\state\build_data\progressions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\runtime\domain_markers.cpp">
+      <Filter>src\state\build_data\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\inventory\buckets\inventory_bucket_catalog.cpp">
+      <Filter>src\state\build_data\inventory\buckets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\runtime\build_data_catalog_runtime.cpp">
+      <Filter>src\state\build_data\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\named_build_data_runtime.cpp">
+      <Filter>src\state\build_data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\socket_entry_lists\socket_entry_list_catalog.cpp">
+      <Filter>src\state\build_data\socket_entry_lists</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\handles\handle_resolver.cpp">
+      <Filter>src\client\content\handles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\activity\activity_tag_reader.cpp">
+      <Filter>src\client\content\activity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\bootstrap\bootstrap_token_publish.cpp">
+      <Filter>src\client\content\bootstrap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\investment\investment_source.cpp">
+      <Filter>src\client\content\investment</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\investment\investment_refresh.cpp">
+      <Filter>src\client\content\investment</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\investment\worker\investment_refresh_worker.cpp">
+      <Filter>src\client\content\investment\worker</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\items\details\configured_item_detail_extractor.cpp">
+      <Filter>src\client\content\items\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\items\details\definition_detail_reader.cpp">
+      <Filter>src\client\content\items\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\items\details\socket_detail_reader.cpp">
+      <Filter>src\client\content\items\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\datagen\character_record\character_record_encoder.cpp">
+      <Filter>src\middleware\datagen\character_record</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\datagen\character_record\appearance\character_appearance_stats.cpp">
+      <Filter>src\middleware\datagen\character_record\appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\datagen\character_record\appearance\character_appearance_abilities.cpp">
+      <Filter>src\middleware\datagen\character_record\appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\datagen\character_record\appearance\character_appearance_banks.cpp">
+      <Filter>src\middleware\datagen\character_record\appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\datagen\character_record\appearance\character_appearance_render.cpp">
+      <Filter>src\middleware\datagen\character_record\appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\datagen\character_record\appearance\character_appearance_sentinels.cpp">
+      <Filter>src\middleware\datagen\character_record\appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\datagen\family4\loadout\loadout_item_resolver.cpp">
+      <Filter>src\middleware\datagen\family4\loadout</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\datagen\family4\loadout\loadout_resolver.cpp">
+      <Filter>src\middleware\datagen\family4\loadout</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\datagen\family4\account\selection_patch\account_selection_patch_encoder.cpp">
+      <Filter>src\middleware\datagen\family4\account\selection_patch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\runtime\server_runtime.cpp">
+      <Filter>src\server\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\ui\runtime\server_ui_module_runtime.cpp">
+      <Filter>src\server\ui\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\ui\activity_override\activity_override_panel.cpp">
+      <Filter>src\server\ui\activity_override</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\ui\activity_override\activity_override_lists.cpp">
+      <Filter>src\server\ui\activity_override</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\transport\bap_listener.cpp">
+      <Filter>src\server\transport</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\bap_route.cpp">
+      <Filter>src\server\bap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\plaintext.cpp">
+      <Filter>src\server\bap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\encrypted_runtime.cpp">
+      <Filter>src\server\bap\encrypted</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\activity_transaction\activity_transaction_notifications.cpp">
+      <Filter>src\server\bap\encrypted\activity_transaction</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\body\bap_service_body.cpp">
+      <Filter>src\server\bap\encrypted\body</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\routing\bap_service_routing.cpp">
+      <Filter>src\server\bap\encrypted\routing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\routing\bap_service_failure.cpp">
+      <Filter>src\server\bap\encrypted\routing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\reply\bap_encrypted_reply.cpp">
+      <Filter>src\server\bap\encrypted\reply</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\activity_host_manager\activity_host_manager_route.cpp">
+      <Filter>src\server\bap\encrypted\activity_host_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\activity_message\activity_message_route.cpp">
+      <Filter>src\server\bap\encrypted\activity_message</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\activity_message\patch_epoch\activity_patch_epoch_route.cpp">
+      <Filter>src\server\bap\encrypted\activity_message\patch_epoch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\activity_message\membership\activity_membership_route.cpp">
+      <Filter>src\server\bap\encrypted\activity_message\membership</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\matchmaking\matchmaking_route.cpp">
+      <Filter>src\server\bap\encrypted\matchmaking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\transactions\service_outcome_commit.cpp">
+      <Filter>src\server\bap\encrypted\transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\queuez\queuez_state_validation.cpp">
+      <Filter>src\server\bap\encrypted\queuez</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\queuez\staging\queuez_family_staging.cpp">
+      <Filter>src\server\bap\encrypted\queuez\staging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\queuez\staging\queuez_character_staging.cpp">
+      <Filter>src\server\bap\encrypted\queuez\staging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\queuez\queuez_deferred_push.cpp">
+      <Filter>src\server\bap\encrypted\queuez</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\queuez\queuez_outcome_staging.cpp">
+      <Filter>src\server\bap\encrypted\queuez</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\push\queuez\queuez_update_frame.cpp">
+      <Filter>src\server\bap\encrypted\push\queuez</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\push\queuez\queuez_subscription.cpp">
+      <Filter>src\server\bap\encrypted\push\queuez</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\push\queuez\queuez_change_character.cpp">
+      <Filter>src\server\bap\encrypted\push\queuez</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\push\queuez\queuez_select_character.cpp">
+      <Filter>src\server\bap\encrypted\push\queuez</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\push\activity\activity_message_push.cpp">
+      <Filter>src\server\bap\encrypted\push\activity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\push\activity\activity_roster_push.cpp">
+      <Filter>src\server\bap\encrypted\push\activity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\push\activity\activity_roster_snapshot.cpp">
+      <Filter>src\server\bap\encrypted\push\activity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\push\activity\activity_roster_report.cpp">
+      <Filter>src\server\bap\encrypted\push\activity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\push\activity\activity_keepalive_seed.cpp">
+      <Filter>src\server\bap\encrypted\push\activity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\bap_connection_publication.cpp">
+      <Filter>src\server\bap\encrypted</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\push\activity\activity_membership_push.cpp">
+      <Filter>src\server\bap\encrypted\push\activity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\push\activity\activity_global_state_push.cpp">
+      <Filter>src\server\bap\encrypted\push\activity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\push\activity\activity_keepalive_push.cpp">
+      <Filter>src\server\bap\encrypted\push\activity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\push\activity\activity_notification_frame.cpp">
+      <Filter>src\server\bap\encrypted\push\activity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\push\snapshot\snapshot_object_compressor.cpp">
+      <Filter>src\server\bap\encrypted\push\snapshot</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\push\snapshot\family4_selection_resolver.cpp">
+      <Filter>src\server\bap\encrypted\push\snapshot</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\push\snapshot\family4_snapshot_preparer.cpp">
+      <Filter>src\server\bap\encrypted\push\snapshot</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\push\snapshot\family4_selection_move.cpp">
+      <Filter>src\server\bap\encrypted\push\snapshot</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\push\snapshot\initial_snapshot.cpp">
+      <Filter>src\server\bap\encrypted\push\snapshot</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\push\snapshot\banner_snapshot.cpp">
+      <Filter>src\server\bap\encrypted\push\snapshot</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\push\snapshot\roster_snapshot.cpp">
+      <Filter>src\server\bap\encrypted\push\snapshot</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\push\snapshot\snapshot_storage.cpp">
+      <Filter>src\server\bap\encrypted\push\snapshot</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\web_service\opcode_routes.cpp">
+      <Filter>src\server\web_service</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\web_service\web_service_runtime.cpp">
+      <Filter>src\server\web_service</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\http\server_http.cpp">
+      <Filter>src\server\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\runtime\middleware_runtime.cpp">
+      <Filter>src\middleware\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\protobuf\protobuf_measure.cpp">
+      <Filter>src\middleware\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\protobuf\protobuf_reader.cpp">
+      <Filter>src\middleware\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\protobuf\protobuf_wire.cpp">
+      <Filter>src\middleware\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\protobuf\protobuf_writer.cpp">
+      <Filter>src\middleware\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\bap_frame.cpp">
+      <Filter>src\middleware\bap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\account_translation\account_translation_response.cpp">
+      <Filter>src\middleware\bap\account_translation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_host\activity_host_response.cpp">
+      <Filter>src\middleware\bap\activity_host</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_host_manager\request\activity_manager_request.cpp">
+      <Filter>src\middleware\bap\activity_host_manager\request</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_host_manager\request\selection\activity_manager_selection_descriptor.cpp">
+      <Filter>src\middleware\bap\activity_host_manager\request\selection</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_host_manager\request\selection\activity_manager_selection_parser.cpp">
+      <Filter>src\middleware\bap\activity_host_manager\request\selection</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_host_manager\request\selection\activity_manager_descriptor_parser.cpp">
+      <Filter>src\middleware\bap\activity_host_manager\request\selection</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_host_manager\request\selection\activity_manager_descriptor_reader.cpp">
+      <Filter>src\middleware\bap\activity_host_manager\request\selection</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_host_manager\response\activity_manager_response.cpp">
+      <Filter>src\middleware\bap\activity_host_manager\response</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_message\activity_message_request_parser.cpp">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_message\activity_sensor_auth_encoder.cpp">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_message\activity_sensor_auth_blocks.cpp">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_message\activity_sensor_auth_bodies.cpp">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_message\activity_authoritative_data_parser.cpp">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_message\activity_authoritative_opaque_skip.cpp">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_message\activity_client_keepalive_validator.cpp">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_message\activity_high_water_validator.cpp">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_message\activity_join_request_parser.cpp">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_message\activity_client_identity_parser.cpp">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_message\activity_state_refresh_parser.cpp">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_message\activity_membership_acknowledgement_parser.cpp">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_message\activity_global_state_encoder.cpp">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_message\activity_patch_epoch_parser.cpp">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_message\activity_membership_member_writer.cpp">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_message\activity_membership_region_writer.cpp">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_message\activity_replicate_membership_encoder.cpp">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_message\activity_message_notification_encoder.cpp">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_message\activity_join_result_encoder.cpp">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_message\activity_entity_slot_request_parser.cpp">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_message\activity_entity_slots_decoder.cpp">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\activity_message\activity_entity_slots_encoder.cpp">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\certificate.cpp">
+      <Filter>src\middleware\bap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\client_config\client_config_response.cpp">
+      <Filter>src\middleware\bap\client_config</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\family_subscription.cpp">
+      <Filter>src\middleware\bap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\family_unsubscription.cpp">
+      <Filter>src\middleware\bap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\matchmaking\request\matchmaking_request_parser.cpp">
+      <Filter>src\middleware\bap\matchmaking\request</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\matchmaking\request\matchmaking_field_selection.cpp">
+      <Filter>src\middleware\bap\matchmaking\request</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\matchmaking\request\matchmaking_nested_selection.cpp">
+      <Filter>src\middleware\bap\matchmaking\request</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\matchmaking\response\matchmaking_response_encoder.cpp">
+      <Filter>src\middleware\bap\matchmaking\response</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\matchmaking\response\matchmaking_dynamic_response.cpp">
+      <Filter>src\middleware\bap\matchmaking\response</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\bap\user_message\user_message_response.cpp">
+      <Filter>src\middleware\bap\user_message</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\compression\oodle\oodle_runtime.cpp">
+      <Filter>src\middleware\compression\oodle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\compression\oodle\oodle_installed.cpp">
+      <Filter>src\middleware\compression\oodle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\datagen\family3\family3_roster.cpp">
+      <Filter>src\middleware\datagen\family3</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\datagen\family4\account\account_encoder.cpp">
+      <Filter>src\middleware\datagen\family4\account</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\datagen\family4\progression\progression_bank_keys.cpp">
+      <Filter>src\middleware\datagen\family4\progression</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\datagen\family4\account\preferences\preferences_encoder.cpp">
+      <Filter>src\middleware\datagen\family4\account\preferences</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\datagen\family4\character\character_encoder.cpp">
+      <Filter>src\middleware\datagen\family4\character</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\datagen\family4\character\equipment_summary_builder.cpp">
+      <Filter>src\middleware\datagen\family4\character</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\datagen\family4\instance\instance_encoder.cpp">
+      <Filter>src\middleware\datagen\family4\instance</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\datagen\roster\queuez_roster.cpp">
+      <Filter>src\middleware\datagen\roster</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\packages\named_tags\named_tag_parser.cpp">
+      <Filter>src\middleware\content\packages\named_tags</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\packages\named_tags\named_tag_file.cpp">
+      <Filter>src\middleware\content\packages\named_tags</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\packages\named_tags\named_tag_patch.cpp">
+      <Filter>src\middleware\content\packages\named_tags</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\packages\package_catalog.cpp">
+      <Filter>src\middleware\content\packages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\packages\reader\package_class_scan.cpp">
+      <Filter>src\middleware\content\packages\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\packages\reader\package_parallel_read.cpp">
+      <Filter>src\middleware\content\packages\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\packages\reader\package_entry_reader.cpp">
+      <Filter>src\middleware\content\packages\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\packages\reader\package_header.cpp">
+      <Filter>src\middleware\content\packages\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\packages\tables\bubble_state_reader.cpp">
+      <Filter>src\middleware\content\packages\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\packages\tables\definition_index_table.cpp">
+      <Filter>src\middleware\content\packages\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\packages\tables\item_definition_reader.cpp">
+      <Filter>src\middleware\content\packages\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\packages\tables\region_reader.cpp">
+      <Filter>src\middleware\content\packages\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\packages\tables\roster_intersection.cpp">
+      <Filter>src\middleware\content\packages\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\packages\tables\scenario_reader.cpp">
+      <Filter>src\middleware\content\packages\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\packages\tables\scenario_walk.cpp">
+      <Filter>src\middleware\content\packages\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\packages\tables\slot_descriptor_reader.cpp">
+      <Filter>src\middleware\content\packages\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\packages\tables\spawn_reader.cpp">
+      <Filter>src\middleware\content\packages\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\packages\tables\component_container_reader.cpp">
+      <Filter>src\middleware\content\packages\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\packages\tables\item_appearance_reader.cpp">
+      <Filter>src\middleware\content\packages\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\packages\tables\ability_pool_reader.cpp">
+      <Filter>src\middleware\content\packages\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\items\packages\package_item_build.cpp">
+      <Filter>src\client\content\items\packages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\items\packages\package_detail_build.cpp">
+      <Filter>src\client\content\items\packages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\items\packages\package_ability_build.cpp">
+      <Filter>src\client\content\items\packages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\items\packages\package_subclass_build.cpp">
+      <Filter>src\client\content\items\packages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\items\packages\package_progression_build.cpp">
+      <Filter>src\client\content\items\packages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\packages\reader\package_file_locator.cpp">
+      <Filter>src\middleware\content\packages\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\crypto\aes_gcm_decrypt.cpp">
+      <Filter>src\middleware\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\manifest\content_manifest_encoder.cpp">
+      <Filter>src\middleware\content\manifest</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\manifest\manifest_entitlement_encoder.cpp">
+      <Filter>src\middleware\content\manifest</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\encoding\bit_writer.cpp">
+      <Filter>src\middleware\encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\encoding\bit_reader.cpp">
+      <Filter>src\middleware\encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\queuez\queuez_update.cpp">
+      <Filter>src\middleware\queuez</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\web_service\web_service_envelope.cpp">
+      <Filter>src\middleware\web_service</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\web_service\status_fields.cpp">
+      <Filter>src\middleware\web_service</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\web_service\messages\family5\family5_codec.cpp">
+      <Filter>src\middleware\web_service\messages\family5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\web_service\messages\opcode205\opcode205_codec.cpp">
+      <Filter>src\middleware\web_service\messages\opcode205</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\web_service\messages\opcode503\opcode503_codec.cpp">
+      <Filter>src\middleware\web_service\messages\opcode503</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\web_service\messages\opcode206_codec.cpp">
+      <Filter>src\middleware\web_service\messages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\web_service\messages\opcode501_codec.cpp">
+      <Filter>src\middleware\web_service\messages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\web_service\messages\opcode505\opcode505_codec.cpp">
+      <Filter>src\middleware\web_service\messages\opcode505</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\settings\state_settings.cpp">
+      <Filter>src\core\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\secure_channel\envelope.cpp">
+      <Filter>src\middleware\secure_channel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\secure_channel\encrypted_frame.cpp">
+      <Filter>src\middleware\secure_channel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\signon\response.cpp">
+      <Filter>src\middleware\signon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\signon\extended\signon_extended_fields.cpp">
+      <Filter>src\middleware\signon\extended</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\signon\config\signon_config_blob.cpp">
+      <Filter>src\middleware\signon\config</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\signon\ownership\signon_ownership_encoder.cpp">
+      <Filter>src\middleware\signon\ownership</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\transport\bap_peer_session.cpp">
+      <Filter>src\server\transport</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\hooks\queuez\family0\family0_source_seed.cpp">
+      <Filter>src\client\hooks\queuez\family0</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\packages\reader\package_locator_cache.cpp">
+      <Filter>src\middleware\content\packages\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\packages\reader\package_block_cache.cpp">
+      <Filter>src\middleware\content\packages\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\packages\reader\package_handle_cache.cpp">
+      <Filter>src\middleware\content\packages\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\middleware\content\packages\reader\package_table_cache.cpp">
+      <Filter>src\middleware\content\packages\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\runtime\build_data_routing_catalogs.cpp">
+      <Filter>src\state\build_data\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\build_data\cache\records\cache_investment_records.cpp">
+      <Filter>src\state\build_data\cache\records</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\push\snapshot\family4_object_staging.cpp">
+      <Filter>src\server\bap\encrypted\push\snapshot</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\settings\state\account_rows_parser.cpp">
+      <Filter>src\core\settings\state</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\push\queuez\queuez_banner_push.cpp">
+      <Filter>src\server\bap\encrypted\push\queuez</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server\bap\encrypted\push\queuez\queuez_push_reporting.cpp">
+      <Filter>src\server\bap\encrypted\push\queuez</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\items\packages\package_container_location.cpp">
+      <Filter>src\client\content\items\packages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\items\packages\package_build_report.cpp">
+      <Filter>src\client\content\items\packages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\items\packages\package_root_tables.cpp">
+      <Filter>src\client\content\items\packages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\content\items\packages\package_item_rows.cpp">
+      <Filter>src\client\content\items\packages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\diagnostics\module_range.cpp">
+      <Filter>src\client\diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\process\freeze\client_process_freeze.cpp">
+      <Filter>src\client\process\freeze</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resources\resource.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\logging\log.h">
+      <Filter>src\core\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\logging\snapshot\snapshot.h">
+      <Filter>src\core\logging\snapshot</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\logging\snapshot\internal.h">
+      <Filter>src\core\logging\snapshot</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\logging\view\log_snapshot_view.h">
+      <Filter>src\core\logging\view</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\filesystem\path.h">
+      <Filter>src\core\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\filesystem\temporary_sibling.h">
+      <Filter>src\core\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\settings\settings.h">
+      <Filter>src\core\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\settings\parser.h">
+      <Filter>src\core\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\settings\client\definition.h">
+      <Filter>src\core\settings\client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\settings\server\definition.h">
+      <Filter>src\core\settings\server</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\settings\steam\definition.h">
+      <Filter>src\core\settings\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\runtime\core_runtime.h">
+      <Filter>src\core\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\imgui_user_config.h">
+      <Filter>src\core\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\modules\ui_module_descriptor.h">
+      <Filter>src\core\ui\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\modules\registry\ui_module_registry.h">
+      <Filter>src\core\ui\modules\registry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\modules\logs\logs.h">
+      <Filter>src\core\ui\modules\logs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\cursor\cursor_guard_replacements.h">
+      <Filter>src\client\hooks\cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\cursor\runtime.h">
+      <Filter>src\client\hooks\cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\polled_input\polled_input_replacements.h">
+      <Filter>src\client\hooks\polled_input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\polled_input\runtime.h">
+      <Filter>src\client\hooks\polled_input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\banner\banner_bind.h">
+      <Filter>src\client\hooks\banner</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\banner\banner_hook_lifecycle.h">
+      <Filter>src\client\hooks\banner</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\web_service\messages\opcode504.h">
+      <Filter>src\middleware\web_service\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\busy\busy.h">
+      <Filter>src\core\ui\busy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\busy\ui_busy_state.h">
+      <Filter>src\core\ui\busy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\notice\ui_notice_overlay.h">
+      <Filter>src\core\ui\notice</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\modules\logs\internal.h">
+      <Filter>src\core\ui\modules\logs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\modules\logs\filters\logs_filter_controls.h">
+      <Filter>src\core\ui\modules\logs\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\runtime\ui_visibility_runtime.h">
+      <Filter>src\core\ui\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\runtime\settings.h">
+      <Filter>src\core\ui\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\memory\allocator.h">
+      <Filter>src\core\ui\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\memory\fixed\internal.h">
+      <Filter>src\core\ui\memory\fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\animation\animation.h">
+      <Filter>src\core\ui\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\animation\transition\ui_transition_animation.h">
+      <Filter>src\core\ui\animation\transition</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\components\components.h">
+      <Filter>src\core\ui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\components\card\ui_card_component.h">
+      <Filter>src\core\ui\components\card</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\components\drawing\drawing.h">
+      <Filter>src\core\ui\components\drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\components\filter\ui_filter_component.h">
+      <Filter>src\core\ui\components\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\components\picker\ui_picker_component.h">
+      <Filter>src\core\ui\components\picker</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\components\navigation\ui_navigation_component.h">
+      <Filter>src\core\ui\components\navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\components\section\ui_section_component.h">
+      <Filter>src\core\ui\components\section</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\components\toggle\ui_toggle_component.h">
+      <Filter>src\core\ui\components\toggle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\fonts\fonts.h">
+      <Filter>src\core\ui\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\fonts\installed\ui_installed_font_reader.h">
+      <Filter>src\core\ui\fonts\installed</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\fonts\runtime\ui_runtime_font_lifecycle.h">
+      <Filter>src\core\ui\fonts\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\scaling\scaling.h">
+      <Filter>src\core\ui\scaling</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\scaling\dpi\ui_dpi_scaling.h">
+      <Filter>src\core\ui\scaling\dpi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\theme\sunrise_ui_theme.h">
+      <Filter>src\core\ui\theme</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\layout\layout.h">
+      <Filter>src\core\ui\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\layout\ui_layout_lifecycle.h">
+      <Filter>src\core\ui\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\layout\navigation\ui_layout_navigation.h">
+      <Filter>src\core\ui\layout\navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ui\layout\credits\sunrise_credits_badge.h">
+      <Filter>src\core\ui\layout\credits</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\runtime\runtime.h">
+      <Filter>src\client\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\teleport\teleport_settings_store.h">
+      <Filter>src\client\teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\teleport\internal.h">
+      <Filter>src\client\hooks\teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\teleport\runtime.h">
+      <Filter>src\client\hooks\teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\ui\teleport\teleport_panel.h">
+      <Filter>src\client\ui\teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\runtime\internal.h">
+      <Filter>src\client\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\runtime\host\game_host_classification.h">
+      <Filter>src\client\runtime\host</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\graphics\graphics_hook_lifecycle.h">
+      <Filter>src\client\hooks\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\graphics\graphics_hook_replacements.h">
+      <Filter>src\client\hooks\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\graphics\input\input.h">
+      <Filter>src\client\hooks\graphics\input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\graphics\renderer\renderer.h">
+      <Filter>src\client\hooks\graphics\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\graphics\renderer\state.h">
+      <Filter>src\client\hooks\graphics\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\ui\runtime\client_ui_module_runtime.h">
+      <Filter>src\client\ui\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\memory\current_process_memory.h">
+      <Filter>src\client\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\content\handles\layout.h">
+      <Filter>src\client\content\handles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\content\handles\handle_resolver.h">
+      <Filter>src\client\content\handles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\content\activity\source.h">
+      <Filter>src\client\content\activity</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\content\scenarios\scenario_build.h">
+      <Filter>src\client\content\scenarios</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\content\scenarios\internal.h">
+      <Filter>src\client\content\scenarios</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\content\spawn_sets\spawn_set_build.h">
+      <Filter>src\client\content\spawn_sets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\content\hash_names\hash_name_build.h">
+      <Filter>src\client\content\hash_names</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\content\hash_names\hash_name_matcher.h">
+      <Filter>src\client\content\hash_names</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\content\spawn_sets\spawn_set_catalog_builder.h">
+      <Filter>src\client\content\spawn_sets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\content\investment\layout.h">
+      <Filter>src\client\content\investment</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\content\investment\internal.h">
+      <Filter>src\client\content\investment</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\content\investment\source.h">
+      <Filter>src\client\content\investment</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\content\investment\worker.h">
+      <Filter>src\client\content\investment</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\content\items\layout.h">
+      <Filter>src\client\content\items</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\content\items\details\configured_item_detail_extractor.h">
+      <Filter>src\client\content\items\details</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\content\items\details\layout.h">
+      <Filter>src\client\content\items\details</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\content\items\details\memory.h">
+      <Filter>src\client\content\items\details</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\content\items\details\definition_detail_reader.h">
+      <Filter>src\client\content\items\details</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\content\items\details\relative.h">
+      <Filter>src\client\content\items\details</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\content\items\details\socket_detail_reader.h">
+      <Filter>src\client\content\items\details</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\network\consumer.h">
+      <Filter>src\client\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooking\detour.h">
+      <Filter>src\client\hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooking\detour\transaction\detour_thread_transaction.h">
+      <Filter>src\client\hooking\detour\transaction</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\executable\image.h">
+      <Filter>src\client\executable</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\network\investment\investment_derived_rebuild.h">
+      <Filter>src\client\hooks\network\investment</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\network\runtime.h">
+      <Filter>src\client\hooks\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\network\bubble_authority\bubble_authority_replacements.h">
+      <Filter>src\client\hooks\network\bubble_authority</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\network\bubble_authority\scope\bubble_authority_scope.h">
+      <Filter>src\client\hooks\network\bubble_authority\scope</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\network\coordinator\network_call_coordinator.h">
+      <Filter>src\client\hooks\network\coordinator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\network\content_config\coordinator\content_config_call_coordinator.h">
+      <Filter>src\client\hooks\network\content_config\coordinator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\network\content_config\gate\content_config_signature_gate.h">
+      <Filter>src\client\hooks\network\content_config\gate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\network\content_config\internal.h">
+      <Filter>src\client\hooks\network\content_config</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\network\content_config\lifecycle\content_config_hook_storage.h">
+      <Filter>src\client\hooks\network\content_config\lifecycle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\network\content_config\protocol.h">
+      <Filter>src\client\hooks\network\content_config</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\network\content_config\runtime.h">
+      <Filter>src\client\hooks\network\content_config</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\network\platform.h">
+      <Filter>src\client\hooks\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\network\network_call_quiescence.h">
+      <Filter>src\client\hooks\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\network\http\internal.h">
+      <Filter>src\client\hooks\network\http</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\network\lifecycle\network_hook_group.h">
+      <Filter>src\client\hooks\network\lifecycle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\network\lifecycle\network_hook_entries.h">
+      <Filter>src\client\hooks\network\lifecycle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\egress\dns\egress_dns_replacements.h">
+      <Filter>src\client\hooks\egress\dns</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\egress\extensions\egress_extension_replacements.h">
+      <Filter>src\client\hooks\egress\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\egress\internal.h">
+      <Filter>src\client\hooks\egress</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\egress\platform\abi.h">
+      <Filter>src\client\hooks\egress\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\egress\platform\sdk.h">
+      <Filter>src\client\hooks\egress\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\egress\policy\policy.h">
+      <Filter>src\client\hooks\egress\policy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\egress\resolver\replacements.h">
+      <Filter>src\client\hooks\egress\resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\egress\runtime.h">
+      <Filter>src\client\hooks\egress</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\egress\winsock\replacements.h">
+      <Filter>src\client\hooks\egress\winsock</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\egress\winsock\connection\egress_connection_replacements.h">
+      <Filter>src\client\hooks\egress\winsock\connection</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\egress\winsock\control\egress_control_replacement.h">
+      <Filter>src\client\hooks\egress\winsock\control</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\egress\winsock\discovery\egress_discovery_responder.h">
+      <Filter>src\client\hooks\egress\winsock\discovery</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\egress\winsock\reception\egress_reception_replacements.h">
+      <Filter>src\client\hooks\egress\winsock\reception</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\egress\winsock\transmission\replacements.h">
+      <Filter>src\client\hooks\egress\winsock\transmission</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\patterns\registry.h">
+      <Filter>src\client\patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\patterns\signature_text.h">
+      <Filter>src\client\patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\patterns\game.h">
+      <Filter>src\client\patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\patterns\steam.h">
+      <Filter>src\client\patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\targets\steam_targets.h">
+      <Filter>src\client\targets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\targets\game.h">
+      <Filter>src\client\targets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\targets\game\content.h">
+      <Filter>src\client\targets\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\targets\game\network.h">
+      <Filter>src\client\targets\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\targets\game\network\network_content_derivation.h">
+      <Filter>src\client\targets\game\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\targets\game\relative.h">
+      <Filter>src\client\targets\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\targets\game\resolution\internal.h">
+      <Filter>src\client\targets\game\resolution</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\targets\game\resolution\game_target_resolution.h">
+      <Filter>src\client\targets\game\resolution</Filter>
+    </ClInclude>
+    <ClInclude Include="src\steam\runtime\runtime.h">
+      <Filter>src\steam\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\steam\runtime\callbacks\callback_registry.h">
+      <Filter>src\steam\runtime\callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\steam\runtime\internal.h">
+      <Filter>src\steam\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\steam\interfaces\steam_interface_factory.h">
+      <Filter>src\steam\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\steam\interfaces\internal.h">
+      <Filter>src\steam\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\steam\interfaces\tables\internal.h">
+      <Filter>src\steam\interfaces\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\unlocks\definition.h">
+      <Filter>src\state\unlocks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\unlocks\unlocks_runtime.h">
+      <Filter>src\state\unlocks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\runtime\runtime.h">
+      <Filter>src\state\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\runtime\state.h">
+      <Filter>src\state\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\runtime\storage\internal.h">
+      <Filter>src\state\runtime\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\activity\definition.h">
+      <Filter>src\state\activity</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\activity\defaults\definition.h">
+      <Filter>src\state\activity\defaults</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\activity\defaults\activity_defaults_snapshot.h">
+      <Filter>src\state\activity\defaults</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\activity\defaults\activity_defaults_validation.h">
+      <Filter>src\state\activity\defaults</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\activity\destination\definition.h">
+      <Filter>src\state\activity\destination</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\activity\forced\definition.h">
+      <Filter>src\state\activity\forced</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\activity\forced\activity_forced_destination.h">
+      <Filter>src\state\activity\forced</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\activity\destination\activity_destination_snapshot.h">
+      <Filter>src\state\activity\destination</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\activity\destination\activity_destination_validation.h">
+      <Filter>src\state\activity\destination</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\activity\entity_slots\definition.h">
+      <Filter>src\state\activity\entity_slots</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\activity\entity_slots\runtime.h">
+      <Filter>src\state\activity\entity_slots</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\activity\entity_slots\transactions\internal.h">
+      <Filter>src\state\activity\entity_slots\transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\activity\bubble_authority\definition.h">
+      <Filter>src\state\activity\bubble_authority</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\activity\bubble_authority\runtime.h">
+      <Filter>src\state\activity\bubble_authority</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\activity\bubble_authority\transactions\internal.h">
+      <Filter>src\state\activity\bubble_authority\transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\activity\membership\definition.h">
+      <Filter>src\state\activity\membership</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\activity\membership\activity_membership_query.h">
+      <Filter>src\state\activity\membership</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\activity\membership\transactions\internal.h">
+      <Filter>src\state\activity\membership\transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\activity\runtime.h">
+      <Filter>src\state\activity</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\activity\transactions\internal.h">
+      <Filter>src\state\activity\transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\matchmaking\definition.h">
+      <Filter>src\state\matchmaking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\matchmaking\matchmaking_state.h">
+      <Filter>src\state\matchmaking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\matchmaking\transactions\internal.h">
+      <Filter>src\state\matchmaking\transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\runtime\equipment\configured_equipment_identity.h">
+      <Filter>src\state\runtime\equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\account\account_state.h">
+      <Filter>src\state\account</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\account\inventory\inventory_state.h">
+      <Filter>src\state\account\inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\account\settings\settings_state.h">
+      <Filter>src\state\account\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\account\settings\key_bindings.h">
+      <Filter>src\state\account\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\equipment\light\definition.h">
+      <Filter>src\state\equipment\light</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\equipment\light\calculation\equipment_light_calculation.h">
+      <Filter>src\state\equipment\light\calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\equipment\light\resolution\configured_equipment_light_resolver.h">
+      <Filter>src\state\equipment\light\resolution</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\investment\investment.h">
+      <Filter>src\state\investment</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\content\content_catalog.h">
+      <Filter>src\state\content</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\content_manifest\cache\format.h">
+      <Filter>src\state\content_manifest\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\content_manifest\cache\internal.h">
+      <Filter>src\state\content_manifest\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\content_manifest\definition.h">
+      <Filter>src\state\content_manifest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\content_manifest\fingerprint\content_manifest_fingerprint.h">
+      <Filter>src\state\content_manifest\fingerprint</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\content_manifest\content_manifest_state_runtime.h">
+      <Filter>src\state\content_manifest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\content_manifest\scanner\internal.h">
+      <Filter>src\state\content_manifest\scanner</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\content_manifest\scanner\package\content_manifest_package_header.h">
+      <Filter>src\state\content_manifest\scanner\package</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\content_manifest\scanner\package\content_manifest_package_name.h">
+      <Filter>src\state\content_manifest\scanner\package</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\content_manifest\content_manifest_row_validation.h">
+      <Filter>src\state\content_manifest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\definition.h">
+      <Filter>src\state\build_data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\runtime.h">
+      <Filter>src\state\build_data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\table.h">
+      <Filter>src\state\build_data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\scenarios\scenario_catalog.h">
+      <Filter>src\state\build_data\scenarios</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\spawn_sets\spawn_set_catalog.h">
+      <Filter>src\state\build_data\spawn_sets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\hash_names\hash_name_catalog.h">
+      <Filter>src\state\build_data\hash_names</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\hash_names\definition.h">
+      <Filter>src\state\build_data\hash_names</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\spawn_sets\definition.h">
+      <Filter>src\state\build_data\spawn_sets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\scenarios\definition.h">
+      <Filter>src\state\build_data\scenarios</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\runtime\persistence\build_data_persistence.h">
+      <Filter>src\state\build_data\runtime\persistence</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\runtime\persistence\publication_transaction.h">
+      <Filter>src\state\build_data\runtime\persistence</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\cache\internal.h">
+      <Filter>src\state\build_data\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\cache\read\cache_payload_reader.h">
+      <Filter>src\state\build_data\cache\read</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\cache\records\codec.h">
+      <Filter>src\state\build_data\cache\records</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\cache\records\domains.h">
+      <Filter>src\state\build_data\cache\records</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\cache\records\format.h">
+      <Filter>src\state\build_data\cache\records</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\cache\records\validation.h">
+      <Filter>src\state\build_data\cache\records</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\cache\write\cache_payload_writer.h">
+      <Filter>src\state\build_data\cache\write</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\cache\write\temporary\temporary_cache_file.h">
+      <Filter>src\state\build_data\cache\write\temporary</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\cache\write\validation\cache_file_comparison.h">
+      <Filter>src\state\build_data\cache\write\validation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\items\item_catalog.h">
+      <Filter>src\state\build_data\items</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\items\details\definition.h">
+      <Filter>src\state\build_data\items\details</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\items\details\item_detail_catalog.h">
+      <Filter>src\state\build_data\items\details</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\inventory\buckets\definition.h">
+      <Filter>src\state\build_data\inventory\buckets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\inventory\buckets\inventory_bucket_catalog.h">
+      <Filter>src\state\build_data\inventory\buckets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\socket_entry_lists\definition.h">
+      <Filter>src\state\build_data\socket_entry_lists</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\socket_entry_lists\socket_entry_list_catalog.h">
+      <Filter>src\state\build_data\socket_entry_lists</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\runtime\build_data_catalog_runtime.h">
+      <Filter>src\state\build_data\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\runtime\domain_markers.h">
+      <Filter>src\state\build_data\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\transport\bap_listener.h">
+      <Filter>src\server\transport</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\runtime\server_runtime.h">
+      <Filter>src\server\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\ui\runtime\server_ui_module_runtime.h">
+      <Filter>src\server\ui\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\ui\activity_override\activity_override_panel.h">
+      <Filter>src\server\ui\activity_override</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\ui\activity_override\activity_override_lists.h">
+      <Filter>src\server\ui\activity_override</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\runtime.h">
+      <Filter>src\server\bap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\internal.h">
+      <Filter>src\server\bap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\internal.h">
+      <Filter>src\server\bap\encrypted</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\activity_transaction\activity_transaction_notifications.h">
+      <Filter>src\server\bap\encrypted\activity_transaction</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\activity_host_manager\activity_host_manager_route.h">
+      <Filter>src\server\bap\encrypted\activity_host_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\activity_message\definition.h">
+      <Filter>src\server\bap\encrypted\activity_message</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\activity_message\activity_message_route.h">
+      <Filter>src\server\bap\encrypted\activity_message</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\activity_message\patch_epoch\activity_patch_epoch_route.h">
+      <Filter>src\server\bap\encrypted\activity_message\patch_epoch</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\activity_message\membership\activity_membership_route.h">
+      <Filter>src\server\bap\encrypted\activity_message\membership</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\matchmaking\matchmaking_route.h">
+      <Filter>src\server\bap\encrypted\matchmaking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\transactions\definition.h">
+      <Filter>src\server\bap\encrypted\transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\transactions\service_outcome_commit.h">
+      <Filter>src\server\bap\encrypted\transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\queuez\definition.h">
+      <Filter>src\server\bap\encrypted\queuez</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\queuez\queuez_state_validation.h">
+      <Filter>src\server\bap\encrypted\queuez</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\queuez\queuez_outcome_staging.h">
+      <Filter>src\server\bap\encrypted\queuez</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\queuez\staging\queuez_family_staging.h">
+      <Filter>src\server\bap\encrypted\queuez\staging</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\push\queuez\queuez_update_frame.h">
+      <Filter>src\server\bap\encrypted\push\queuez</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\push\activity\activity_message_push.h">
+      <Filter>src\server\bap\encrypted\push\activity</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\push\activity\activity_roster_push.h">
+      <Filter>src\server\bap\encrypted\push\activity</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\push\activity\activity_global_state_push.h">
+      <Filter>src\server\bap\encrypted\push\activity</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\push\activity\activity_keepalive_push.h">
+      <Filter>src\server\bap\encrypted\push\activity</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\bap_connection_publication.h">
+      <Filter>src\server\bap\encrypted</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\push\activity\activity_membership_push.h">
+      <Filter>src\server\bap\encrypted\push\activity</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\push\activity\activity_notification_frame.h">
+      <Filter>src\server\bap\encrypted\push\activity</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\push\activity\activity_arrival.h">
+      <Filter>src\server\bap\encrypted\push\activity</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\push\activity\internal.h">
+      <Filter>src\server\bap\encrypted\push\activity</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\push\snapshot\internal.h">
+      <Filter>src\server\bap\encrypted\push\snapshot</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\push\snapshot\snapshot.h">
+      <Filter>src\server\bap\encrypted\push\snapshot</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\push\snapshot\snapshot_storage.h">
+      <Filter>src\server\bap\encrypted\push\snapshot</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\web_service\opcode_routes.h">
+      <Filter>src\server\web_service</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\web_service\web_service_runtime.h">
+      <Filter>src\server\web_service</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\http\server_http.h">
+      <Filter>src\server\http</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\runtime\middleware_runtime.h">
+      <Filter>src\middleware\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\protobuf\codec.h">
+      <Filter>src\middleware\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\protobuf\protobuf_wire.h">
+      <Filter>src\middleware\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\frame.h">
+      <Filter>src\middleware\bap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\account_translation\account_translation_response.h">
+      <Filter>src\middleware\bap\account_translation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\activity_host\activity_host_response.h">
+      <Filter>src\middleware\bap\activity_host</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\activity_host_manager\definition.h">
+      <Filter>src\middleware\bap\activity_host_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\activity_host_manager\request\activity_manager_request.h">
+      <Filter>src\middleware\bap\activity_host_manager\request</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\activity_host_manager\request\selection\definition.h">
+      <Filter>src\middleware\bap\activity_host_manager\request\selection</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\activity_host_manager\request\selection\internal.h">
+      <Filter>src\middleware\bap\activity_host_manager\request\selection</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\activity_host_manager\request\selection\activity_manager_selection_parser.h">
+      <Filter>src\middleware\bap\activity_host_manager\request\selection</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\activity_host_manager\response\activity_manager_response.h">
+      <Filter>src\middleware\bap\activity_host_manager\response</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\activity_message\definition.h">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\activity_message\activity_message_request_parser.h">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\activity_message\sensor_auth_update.h">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\activity_message\activity_global_state_encoder.h">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\activity_message\client_authoritative_data.h">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\activity_message\activity_client_keepalive_validator.h">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\activity_message\activity_high_water_validator.h">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\activity_message\activity_join_request_parser.h">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\activity_message\activity_client_identity_parser.h">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\activity_message\activity_state_refresh_parser.h">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\activity_message\activity_membership_acknowledgement_parser.h">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\activity_message\activity_patch_epoch_parser.h">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\activity_message\replicate_membership.h">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\activity_message\activity_message_notification_encoder.h">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\activity_message\activity_join_result_encoder.h">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\activity_message\activity_entity_slot_request_parser.h">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\activity_message\entity_slots.h">
+      <Filter>src\middleware\bap\activity_message</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\certificate.h">
+      <Filter>src\middleware\bap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\client_config\client_config_response.h">
+      <Filter>src\middleware\bap\client_config</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\family_subscription.h">
+      <Filter>src\middleware\bap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\family_unsubscription.h">
+      <Filter>src\middleware\bap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\matchmaking\definition.h">
+      <Filter>src\middleware\bap\matchmaking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\matchmaking\request\matchmaking_request_parser.h">
+      <Filter>src\middleware\bap\matchmaking\request</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\matchmaking\request\field_selection.h">
+      <Filter>src\middleware\bap\matchmaking\request</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\matchmaking\response\matchmaking_response_encoder.h">
+      <Filter>src\middleware\bap\matchmaking\response</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\matchmaking\response\matchmaking_dynamic_response.h">
+      <Filter>src\middleware\bap\matchmaking\response</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\bap\user_message\user_message_response.h">
+      <Filter>src\middleware\bap\user_message</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\queuez\subscription.h">
+      <Filter>src\middleware\queuez</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\compression\oodle\runtime.h">
+      <Filter>src\middleware\compression\oodle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\datagen\character_record\layout.h">
+      <Filter>src\middleware\datagen\character_record</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\datagen\character_record\character_record_encoder.h">
+      <Filter>src\middleware\datagen\character_record</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\datagen\family3\family3_roster.h">
+      <Filter>src\middleware\datagen\family3</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\datagen\family4\account\account_encoder.h">
+      <Filter>src\middleware\datagen\family4\account</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\datagen\family4\account\layout.h">
+      <Filter>src\middleware\datagen\family4\account</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\datagen\family4\account\preferences\layout.h">
+      <Filter>src\middleware\datagen\family4\account\preferences</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\datagen\family4\account\preferences\native_key_binding_map.h">
+      <Filter>src\middleware\datagen\family4\account\preferences</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\datagen\family4\account\preferences\preferences_encoder.h">
+      <Filter>src\middleware\datagen\family4\account\preferences</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\datagen\family4\character\abi.h">
+      <Filter>src\middleware\datagen\family4\character</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\datagen\family4\loadout\definition.h">
+      <Filter>src\middleware\datagen\family4\loadout</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\datagen\family4\loadout\loadout_resolver.h">
+      <Filter>src\middleware\datagen\family4\loadout</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\datagen\family4\loadout\loadout_item_resolver.h">
+      <Filter>src\middleware\datagen\family4\loadout</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\datagen\family4\loadout\subclass_socket_selection.h">
+      <Filter>src\middleware\datagen\family4\loadout</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\datagen\family4\character\character_encoder.h">
+      <Filter>src\middleware\datagen\family4\character</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\datagen\family4\character\equipment_summary_builder.h">
+      <Filter>src\middleware\datagen\family4\character</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\datagen\family4\character\layout.h">
+      <Filter>src\middleware\datagen\family4\character</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\datagen\family4\instance\abi.h">
+      <Filter>src\middleware\datagen\family4\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\datagen\family4\instance\instance_encoder.h">
+      <Filter>src\middleware\datagen\family4\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\datagen\family4\instance\layout.h">
+      <Filter>src\middleware\datagen\family4\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\datagen\family4\inventory\layout.h">
+      <Filter>src\middleware\datagen\family4\inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\datagen\family4\progression\layout.h">
+      <Filter>src\middleware\datagen\family4\progression</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\datagen\roster\queuez_roster.h">
+      <Filter>src\middleware\datagen\roster</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\content\packages\named_tags.h">
+      <Filter>src\middleware\content\packages</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\content\packages\named_tags\internal.h">
+      <Filter>src\middleware\content\packages\named_tags</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\content\packages\package_catalog.h">
+      <Filter>src\middleware\content\packages</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\content\manifest\encoder.h">
+      <Filter>src\middleware\content\manifest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\encoding\bit_writer.h">
+      <Filter>src\middleware\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\encoding\bit_reader.h">
+      <Filter>src\middleware\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\encoding\byte_order.h">
+      <Filter>src\middleware\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\queuez\queuez_update.h">
+      <Filter>src\middleware\queuez</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\web_service\web_service_envelope.h">
+      <Filter>src\middleware\web_service</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\web_service\status_fields.h">
+      <Filter>src\middleware\web_service</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\web_service\messages\family5\family5_codec.h">
+      <Filter>src\middleware\web_service\messages\family5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\web_service\messages\opcode205.h">
+      <Filter>src\middleware\web_service\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\web_service\messages\opcode503.h">
+      <Filter>src\middleware\web_service\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\web_service\messages\opcode206.h">
+      <Filter>src\middleware\web_service\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\web_service\messages\opcode501_codec.h">
+      <Filter>src\middleware\web_service\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\web_service\messages\opcode505\opcode505_codec.h">
+      <Filter>src\middleware\web_service\messages\opcode505</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\datagen\family4\account\selection_patch\account_selection_patch_encoder.h">
+      <Filter>src\middleware\datagen\family4\account\selection_patch</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\secure_channel\runtime.h">
+      <Filter>src\middleware\secure_channel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\signon\response.h">
+      <Filter>src\middleware\signon</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\detours\detours.h">
+      <Filter>vendor\detours</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imconfig.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui_internal.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_rectpack.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_textedit.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_truetype.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\backends\imgui_impl_win32.h">
+      <Filter>vendor\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\backends\imgui_impl_dx11.h">
+      <Filter>vendor\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\targets\game\retail_log.h">
+      <Filter>src\client\targets\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\patterns\game\retail_log\retail_log_signature_bytes.h">
+      <Filter>src\client\patterns\game\retail_log</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\retail_log\retail_log_enqueue_observer.h">
+      <Filter>src\client\hooks\retail_log</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\retail_log\retail_log_lifecycle.h">
+      <Filter>src\client\hooks\retail_log</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\egress\resolver\redirect.h">
+      <Filter>src\client\hooks\egress\resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\settings\client\external\definition.h">
+      <Filter>src\core\settings\client\external</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\external_server\internal.h">
+      <Filter>src\client\hooks\external_server</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\external_server\route.h">
+      <Filter>src\client\hooks\external_server</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\content\bootstrap\bootstrap_token_publish.h">
+      <Filter>src\client\content\bootstrap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\steam\runtime\context\steam_context_state.h">
+      <Filter>src\steam\runtime\context</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\content\diagnostics\content_readiness_report.h">
+      <Filter>src\client\content\diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\content\investment\runtime.h">
+      <Filter>src\client\content\investment</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\content\items\packages\build.h">
+      <Filter>src\client\content\items\packages</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\content\items\packages\internal.h">
+      <Filter>src\client\content\items\packages</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\assert_handler\assert_handler_observer.h">
+      <Filter>src\client\hooks\assert_handler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\assert_handler\assert_handler_lifecycle.h">
+      <Filter>src\client\hooks\assert_handler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\bitmap\bitmap_ref_guard.h">
+      <Filter>src\client\hooks\bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\bitmap\bitmap_hook_lifecycle.h">
+      <Filter>src\client\hooks\bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\bootflow\internal.h">
+      <Filter>src\client\hooks\bootflow</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\bootflow\bootflow_hook_lifecycle.h">
+      <Filter>src\client\hooks\bootflow</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\bootflow\spawn\spawn_gate_record_dump.h">
+      <Filter>src\client\hooks\bootflow\spawn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\bootflow\spawn\probe.h">
+      <Filter>src\client\hooks\bootflow\spawn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\config_getter\config_getter_answers.h">
+      <Filter>src\client\hooks\config_getter</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\config_getter\config_getter_lifecycle.h">
+      <Filter>src\client\hooks\config_getter</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\egress\lifecycle\internal.h">
+      <Filter>src\client\hooks\egress\lifecycle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\egress\policy\egress_policy_logging.h">
+      <Filter>src\client\hooks\egress\policy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\network\investment\internal.h">
+      <Filter>src\client\hooks\network\investment</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\queuez\internal.h">
+      <Filter>src\client\hooks\queuez</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\queuez\queuez_hook_lifecycle.h">
+      <Filter>src\client\hooks\queuez</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\patterns\game\assert_handler\assert_signature_bytes.h">
+      <Filter>src\client\patterns\game\assert_handler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\patterns\game\config_getter\config_getter_signature_bytes.h">
+      <Filter>src\client\patterns\game\config_getter</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\patterns\game\packages\package_key_signature_bytes.h">
+      <Filter>src\client\patterns\game\packages</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\patterns\game\signon\signon_readiness_signature_bytes.h">
+      <Filter>src\client\patterns\game\signon</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\content\packages\tables\spawn_reader.h">
+      <Filter>src\middleware\content\packages\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\content\packages\tables\component_container_reader.h">
+      <Filter>src\middleware\content\packages\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\patterns\image_scan.h">
+      <Filter>src\client\patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\targets\game\assert_handler\game_assert_targets.h">
+      <Filter>src\client\targets\game\assert_handler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\targets\game\assert_handler.h">
+      <Filter>src\client\targets\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\targets\game\config_getter\game_config_getter_targets.h">
+      <Filter>src\client\targets\game\config_getter</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\targets\game\config_getter.h">
+      <Filter>src\client\targets\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\targets\game\packages\game_package_targets.h">
+      <Filter>src\client\targets\game\packages</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\targets\game\packages.h">
+      <Filter>src\client\targets\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\content\packages\reader\internal.h">
+      <Filter>src\middleware\content\packages\reader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\content\packages\reader\layout.h">
+      <Filter>src\middleware\content\packages\reader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\content\packages\reader\reader.h">
+      <Filter>src\middleware\content\packages\reader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\content\packages\reader\parallel.h">
+      <Filter>src\middleware\content\packages\reader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\content\packages\reader\block_cache.h">
+      <Filter>src\middleware\content\packages\reader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\content\packages\reader\handle_cache.h">
+      <Filter>src\middleware\content\packages\reader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\content\packages\reader\package_table_cache.h">
+      <Filter>src\middleware\content\packages\reader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\content\packages\tables\ability_pool_reader.h">
+      <Filter>src\middleware\content\packages\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\content\packages\tables\bubble_state_reader.h">
+      <Filter>src\middleware\content\packages\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\content\packages\tables\internal.h">
+      <Filter>src\middleware\content\packages\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\content\packages\tables\items.h">
+      <Filter>src\middleware\content\packages\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\content\packages\tables\region_reader.h">
+      <Filter>src\middleware\content\packages\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\content\packages\tables\roster_intersection.h">
+      <Filter>src\middleware\content\packages\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\content\packages\tables\scenario_reader.h">
+      <Filter>src\middleware\content\packages\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\content\packages\tables\slot_descriptor_reader.h">
+      <Filter>src\middleware\content\packages\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\content\packages\tables\definition_index_table.h">
+      <Filter>src\middleware\content\packages\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\content\packages\tables\scenario_walk.h">
+      <Filter>src\middleware\content\packages\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\crypto\aes_gcm_decrypt.h">
+      <Filter>src\middleware\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\datagen\character_record\appearance\internal.h">
+      <Filter>src\middleware\datagen\character_record\appearance</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\datagen\definitions.h">
+      <Filter>src\middleware\datagen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\datagen\family4\progression\progression_bank_keys.h">
+      <Filter>src\middleware\datagen\family4\progression</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\signon\config\signon_config_blob.h">
+      <Filter>src\middleware\signon\config</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\signon\extended\signon_extended_fields.h">
+      <Filter>src\middleware\signon\extended</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\signon\internal.h">
+      <Filter>src\middleware\signon</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\signon\ownership\signon_ownership_encoder.h">
+      <Filter>src\middleware\signon\ownership</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\abilities\ability_bucket_catalog.h">
+      <Filter>src\state\build_data\abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\abilities\definition.h">
+      <Filter>src\state\build_data\abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\constants\investment_constant_catalog.h">
+      <Filter>src\state\build_data\constants</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\constants\definition.h">
+      <Filter>src\state\build_data\constants</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\progressions\progression_catalog.h">
+      <Filter>src\state\build_data\progressions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\build_data\progressions\definition.h">
+      <Filter>src\state\build_data\progressions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\entitlements\definition.h">
+      <Filter>src\state\entitlements</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\entitlements\entitlement_runtime.h">
+      <Filter>src\state\entitlements</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\entitlements\validation.h">
+      <Filter>src\state\entitlements</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\transport\internal.h">
+      <Filter>src\server\transport</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\hooks\queuez\family0\family0_source_seed.h">
+      <Filter>src\client\hooks\queuez\family0</Filter>
+    </ClInclude>
+    <ClInclude Include="src\middleware\content\packages\reader\locator_cache.h">
+      <Filter>src\middleware\content\packages\reader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server\bap\encrypted\push\queuez\queuez_push_reporting.h">
+      <Filter>src\server\bap\encrypted\push\queuez</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\diagnostics\module_range.h">
+      <Filter>src\client\diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\process\freeze\client_process_freeze.h">
+      <Filter>src\client\process\freeze</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
